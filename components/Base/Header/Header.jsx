@@ -36,19 +36,19 @@ function Header() {
             <div className="gnb">
               <ul className="gnbUl">
                 <li>
-                  <a href="/flesCompany/about">ABOUT</a>
+                  <Link href="/About">ABOUT</Link>
                 </li>
                 <li>
                   <a href="#">SERVICE</a>
                   <ul className="gnbSubUl">
                     <li>
-                      <a href="/flesCompany/audienceM">AudienceM</a>
+                      <Link href="/Service_audienceM">AudienceM</Link>
                     </li>
                     <li>
-                      <a href="/flesCompany/contents">Contents</a>
+                      <Link href="/Service_contents">Contents</Link>
                     </li>
                     <li>
-                      <a href="/flesCompany/develop">Development</a>
+                      <Link href="/Service_develop">Development</Link>
                     </li>
                   </ul>
                 </li>
@@ -56,21 +56,21 @@ function Header() {
                   <a href="/">LIBRARY</a>
                   <ul className="gnbSubUl">
                     <li>
-                      <a href="/">AudienceM사례</a>
+                      <Link href="/">AudienceM사례</Link>
                     </li>
                     <li>
-                      <a href="/flesCompany/column">Column</a>
+                      <Link href="/Column">Column</Link>
                     </li>
                     <li>
-                      <a href="/flesCompany/news">News</a>
+                      <Link href="/News">News</Link>
                     </li>
                   </ul>
                 </li>
                 <li>
-                  <a href="/flesCompany/career">CAREER</a>
+                  <Link href="/Career">CAREER</Link>
                 </li>
                 <li>
-                  <a href="/flesCompany/contact">CONTACT</a>
+                  <Link href="/Contact">CONTACT</Link>
                 </li>
               </ul>
             </div>

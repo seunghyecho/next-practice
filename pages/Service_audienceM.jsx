@@ -1,7 +1,7 @@
+import Image from 'next/image';
+
 import Banner_sub from "../components/Templates/Banner/Sub";
 import ServiceCarousel from "../components/Templates/Carousel/Service";
-
-import "../css/Service.css";
 
 import img00 from "../assets/images/service/img00.png";
 import img01 from "../assets/images/service/img01.png";
@@ -28,7 +28,7 @@ function Service1() {
       <section className="bg">
         <div className="inner">
           <div className="imgWrap img00">
-            <img src={img00} alt="img00" useMap="#image-map" />
+            <Image src={img00} alt="img00" useMap="#image-map" />
             <map name="image-map">
                {/* SDK 제공 */}
               <area
@@ -118,7 +118,7 @@ function Service1() {
       <section className="goods" id="section01">
         <div className="inner">
           <div className="imgWrap img01">
-            <img src={img01} alt="img01" />
+            <Image src={img01} alt="img01" />
           </div>
           <div className="item">
             <h2>SDK 제공 </h2>
@@ -132,7 +132,7 @@ function Service1() {
       <section className="goods" id="section02">
         <div className="inner reverse">
           <div className="imgWrap img02">
-            <img src={img02} alt="img02" />
+            <Image src={img02} alt="img02" />
           </div>
           <div className="item">
             <h2>AdID 사용료 & 수익분배</h2>
@@ -146,7 +146,7 @@ function Service1() {
       <section className="goods" id="section03">
         <div className="inner">
           <div className="imgWrap img03">
-            <img src={img03} alt="img03" />
+            <Image src={img03} alt="img03" />
           </div>
           <div className="item">
             <h2>AdID 를 통한 광고집행</h2>
@@ -160,7 +160,7 @@ function Service1() {
       <section className="goods" id="section04">
         <div className="inner reverse">
           <div className="imgWrap img04">
-            <img src={img04} alt="img04" />
+            <Image src={img04} alt="img04" />
           </div>
           <div className="item">
             <h2>인공지능 모델링</h2>
@@ -177,7 +177,7 @@ function Service1() {
       <section className="goods" id="section05">
         <div className="inner">
           <div className="imgWrap img05">
-            <img src={img05} alt="img05" />
+            <Image src={img05} alt="img05" />
           </div>
           <div className="item">
             <h2>공급기업</h2>
@@ -195,7 +195,7 @@ function Service1() {
       <section className="goods" id="section06">
         <div className="inner reverse">
           <div className="imgWrap img06">
-            <img src={img06} alt="img06" />
+            <Image src={img06} alt="img06" />
           </div>
           <div className="item">
             <h2>수요기업</h2>

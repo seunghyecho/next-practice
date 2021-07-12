@@ -57,7 +57,7 @@
 .About section.vision {
   width: 100%;
   height: 100%;
-  background-image: url(../assets/images/about/vision01.png);
+  background-image: url(../assets/images/about/vision01.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -88,6 +88,14 @@
   background-size: cover;
 }
 /* img */
+.About section.img .img_about01{
+  display: block !important;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-image: url(../assets/images/about/img_about01.jpg);
+}
 .About section.img .d-flex {
   display: flex;
   align-items: flex-start;
@@ -95,8 +103,19 @@
   height: 720px;
   overflow: hidden;
 }
-.About section.img .d-flex img:first-child {
-  width: 735px;
+.About section.img .d-flex > div {
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+.About section.img .d-flex .img_about02 {
+  width: 50%;
+  background-image: url(../assets/images/about/img_about02.png);
+}
+.About section.img .d-flex .img_about03 {
+  width: 70%;
+  background-image: url(../assets/images/about/img_about03.jpg);
 }
 
 @media screen and (max-width: 1270px) {

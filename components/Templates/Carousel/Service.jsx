@@ -1,8 +1,9 @@
 import styled from "styled-components";
 import { Carousel } from "antd";
 
-import service01 from "../../../assets/images/service/service01@3x.jpg";
+import useDisplay from "../../../hooks/useDisplay";
 
+import service01 from "../../../assets/images/service/service01@3x.jpg";
 import rightArrow from "../../../assets/icons/right-arrow@3x.png";
 import leftArrow from "../../../assets/icons/left-arrow@3x.png";
 
@@ -13,6 +14,7 @@ const Contain = styled.div`
   height: 581px;
   position: relative;
   z-index: 0;
+  overflow: hidden;
 `;
 
 const Content = styled.div.attrs((props) => {})`

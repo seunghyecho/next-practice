@@ -1,7 +1,7 @@
+import Image from "next/image";
+
 import Banner_sub from "../components/Templates/Banner/Sub";
 import Tab from "../components/Templates/Tab/Tab";
-
-import "../css/About.css";
 
 import logo01 from "../assets/images/about/logo01.png";
 import logo02 from "../assets/images/about/logo02.png";
@@ -39,9 +39,9 @@ function About() {
           <h1 className="ff-r">Logo</h1>
           <div className="content">
             <div className="imgArea">
-              <img src={logo01} alt="logo01" />
-              <img src={logo02} alt="logo02" />
-              <img src={logo03} alt="logo03" />
+              <Image src={logo01} alt="logo01" />
+              <Image src={logo02} alt="logo02" />
+              <Image src={logo03} alt="logo03" />
             </div>
           </div>
         </div>
@@ -50,7 +50,7 @@ function About() {
         <div className="inner d-flex">
           <h1 className="ff-r">Color</h1>
           <div className="content">
-            <img src={color} alt="color" />
+            <Image src={color} alt="color" />
           </div>
         </div>
       </section>
@@ -64,10 +64,10 @@ function About() {
         </div>
       </section>
       <section className="img">
-        <img src={img_about01} alt="img_about01" />
+        <div className="img_about01"></div>
         <div className="d-flex">
-          <img src={img_about02} alt="img_about01" />
-          <img src={img_about03} alt="img_about01" />
+          <div className="img_about02"></div>
+          <div className="img_about03"></div>
         </div>
       </section>
     </div>
