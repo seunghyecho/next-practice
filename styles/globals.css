@@ -105,11 +105,11 @@ button {
   font-family: "Roboto", sans-serif;
 }
 .mobile {
-  display: none;
+  display: none !important;
 }
 
 .pc {
-  display: block;
+  display: block !important;
 }
 
 .clear::after {
@@ -119,10 +119,10 @@ button {
 }
 @media screen and (max-width: 1270px) {
   .mobile {
-    display: block;
+    display: block !important;
   }
 
   .pc {
-    display: none;
+    display: none !important;
   }
 }

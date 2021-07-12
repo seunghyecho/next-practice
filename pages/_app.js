@@ -16,6 +16,9 @@ import "../css/Tab.css";
 
 import "../styles/globals.css";
 
+import "../css/Animate.css";
+
+import "antd/dist/antd.css";
 
 
 function MyApp({ Component, pageProps }) {

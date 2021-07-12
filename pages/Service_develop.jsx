@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 import styled from "styled-components";
 
 import Colors from "../utils/Colors";
@@ -5,8 +7,6 @@ import Colors from "../utils/Colors";
 import Banner_sub from "../components/Templates/Banner/Sub";
 import Tab_develop from "../components/Templates/Tab/Tab_service_develop";
 import Slide3_develop from "../components/Templates/Slide/Slide3_develop";
-
-import "../css/Service.css";
 
 import dev_img05_m from "../assets/images/service/dev_img05_m.png";
 import dev_img06_m from "../assets/images/service/dev_img06_m.png";
@@ -77,8 +77,8 @@ function Service3() {
             </p>
           </div>
           <div className="graph">
-            <img src={dev_img05} alt="dev_img05" className="pc" />
-            <img src={dev_img05_m} alt="dev_img05" className="mobile" />
+            <Image src={dev_img05} alt="dev_img05" className="pc" />
+            <Image src={dev_img05_m} alt="dev_img05" className="mobile" />
           </div>
         </div>
       </section>
@@ -89,8 +89,8 @@ function Service3() {
             <p>판매채널별 판매실적 별도 수집</p>
           </div>
           <div className="graph">
-            <img src={dev_img06} alt="dev_img06" className="pc" />
-            <img src={dev_img06_m} alt="dev_img06" className="mobile" />
+            <Image src={dev_img06} alt="dev_img06" className="pc" />
+            <Image src={dev_img06_m} alt="dev_img06" className="mobile" />
           </div>
         </div>
       </section>
@@ -101,8 +101,8 @@ function Service3() {
             <p>다수 브랜드 운영 시, 각 브랜드별 데이터 관리 가능</p>
           </div>
           <div className="graph">
-            <img src={dev_img07} alt="dev_img07" className="pc" />
-            <img src={dev_img07_m} alt="dev_img07" className="mobile" />
+            <Image src={dev_img07} alt="dev_img07" className="pc" />
+            <Image src={dev_img07_m} alt="dev_img07" className="mobile" />
           </div>
         </div>
       </section>

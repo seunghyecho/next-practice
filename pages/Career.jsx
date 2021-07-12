@@ -8,9 +8,6 @@ import Banner_sub from "../components/Templates/Banner/Sub";
 import Tab_career from "../components/Templates/Tab/Tab_career";
 import Table_career from "../components/Templates/Table/Table_career";
 
-import "../css/Career.css";
-import "../css/Animate.css";
-import "antd/dist/antd.css";
 
 const Button = styled.button`
   margin: 0 auto;

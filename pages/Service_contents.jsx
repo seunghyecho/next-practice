@@ -1,10 +1,10 @@
+import Image from 'next/image';
+
 import styled from "styled-components";
 
 import Colors from "../utils/Colors";
 
 import Banner_sub from "../components/Templates/Banner/Sub";
-
-import "../css/Service.css";
 
 import b2c_01 from "../assets/images/service/b2c_01.png";
 import b2c_02 from "../assets/images/service/b2c_02.png";
@@ -55,7 +55,7 @@ function Service2() {
         <div className="appArea">
           <div className="item ">
             <div className="border">
-              <img src={b2c_01} alt="b2c_01" className="appIcon" />
+              <Image src={b2c_01} alt="b2c_01" className="appIcon" />
             </div>
             <div className="osArea">
               <button className="ios"></button>
@@ -64,7 +64,7 @@ function Service2() {
           </div>
           <div className="item ">
             <div className="border">
-              <img src={b2c_02} alt="b2c_02" className="appIcon" />
+              <Image src={b2c_02} alt="b2c_02" className="appIcon" />
             </div>
             <div className="osArea">
               <button className="ios"></button>
@@ -73,7 +73,7 @@ function Service2() {
           </div>
           <div className="item ">
             <div className="border">
-              <img src={b2c_03} alt="b2c_03" className="appIcon" />
+              <Image src={b2c_03} alt="b2c_03" className="appIcon" />
             </div>
             <div className="osArea">
               <button className="ios" style={{"opacity": "0.5"}}></button>

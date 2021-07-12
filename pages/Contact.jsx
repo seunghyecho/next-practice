@@ -7,7 +7,6 @@ import Colors from "../utils/Colors";
 import Banner_sub from "../components/Templates/Banner/Sub";
 import Privacy from "../components/Templates/Modal/Privacy";
 
-import "../css/Contact.css";
 
 // 답답해서 임포트한 jQuery
 import jQuery from "jquery";

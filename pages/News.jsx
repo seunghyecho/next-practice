@@ -11,8 +11,6 @@ import news_02 from "../assets/images/main/news_02.png";
 import news_03 from "../assets/images/main/news_03.png";
 import news_04 from "../assets/images/main/news_04.png";
 
-import "../css/Column.css";
-
 const Button = styled.button.attrs((props) => {})`
     margin: 0 auto;
     padding: 10px 20px;
