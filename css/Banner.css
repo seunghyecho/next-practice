@@ -1,0 +1,153 @@
+/* 배너 : s */
+.banner {
+  margin-top: -70px;
+  position: relative;
+  z-index: 3;
+  width: 100%;
+  height: 923px;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.banner::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.banner #myVideo {
+  z-index: -1;
+}
+
+.banner .inner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 5;
+  text-align: center;
+}
+
+.banner .inner h1,
+.banner .inner h3 {
+  margin-bottom: 0;
+  color: #fff;
+}
+
+.banner .inner h1 {
+  font-size: 42px;
+  font-weight: 600;
+  letter-spacing: -1.05px;
+}
+
+.banner .inner h3 {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.banner .inner .btnPurple {
+  margin-top: 30px;
+}
+/* 배너 - 서브:s */
+.banner.sub {
+  height: 700px;
+  background-image: none;
+}
+.banner.sub img {
+  height: 700px;
+  width: auto;
+}
+.About .banner.sub {
+  width: 100%;
+  height: 700px;
+  background-image: url(../assets/images/banner/subBanner01.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+.Service .banner.sub {
+  width: 100%;
+  height: 700px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+.Service.audienceM .banner.sub {
+  background-image: url(../assets/images/banner/subBanner02_1.jpg);
+}
+.Service.contents .banner.sub {
+  background-image: url(../assets/images/banner/subBanner02_2.jpg);
+}
+.Service.develop .banner.sub {
+  background-image: url(../assets/images/banner/subBanner02_3.jpg);
+}
+.Career .banner.sub {
+  background-image: url(../assets/images/banner/subBanner04.jpg);
+}
+.Contact .banner.sub {
+  background-image: url(../assets/images/banner/subBanner05.jpg);
+}
+.banner.sub .inner h1 {
+  font-size: 46px;
+  font-weight: 600;
+  line-height: 1.39;
+  text-align: center;
+  color: #ffffff;
+}
+/* 배너 - 서브:e */
+/* 배너 : e */
+
+@media screen and (max-width: 1270px) {
+}
+
+@media screen and (max-width: 912px) {
+  .banner {
+    height: 472px;
+  }
+  .banner #myVideo {
+    z-index: -1;
+    transform: translate(-50%, -50%);
+  }
+  .About .banner.sub {
+    height: 472px;
+    background-position: 20% 50%;
+  }
+  .Service .banner.sub {
+    height: 472px;
+    background-position: 50% 50%;
+  }
+  .banner .inner {
+    width: 100%;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+  }
+  .banner .inner h1 {
+    font-size: 24px;
+  }
+  .banner .inner h3 {
+    font-size: 18px;
+  }
+  .banner.sub {
+    height: 472px;
+  }
+
+  .banner.sub .inner {
+    padding: 0 40px;
+  }
+  .banner.sub .inner h1 {
+    font-size: 26px;
+  }
+}

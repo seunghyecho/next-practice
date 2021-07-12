@@ -1,0 +1,230 @@
+#footer {
+  padding: 50px 0 100px;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background-color: #44465d;
+  color: rgba(255, 255, 255, 0.6);
+  text-align: left;
+}
+
+#footer .inner {
+  margin: 0 auto;
+  width: 1270px;
+  display: flex;
+}
+
+#footer .inner .item {
+  width: 50%;
+}
+
+#footer .inner .item:last-child {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#footer .inner .item > * {
+  margin: 42px 0;
+}
+
+#footer .inner .top p {
+  font-weight: 600;
+}
+
+#footer .inner .top a.logo {
+  width: 100%;
+  height: 50px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url(../assets/images/logo/f-logo-3x.png);
+}
+
+#footer .inner .bottom span {
+  padding: 0 10px;
+  position: relative;
+}
+
+#footer .inner .bottom span:first-child {
+  padding-left: 0;
+}
+
+#footer .inner .bottom span:last-child {
+  padding-right: 0;
+}
+
+#footer .inner .bottom span::after {
+  content: "|";
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  color: #fff;
+  font-size: 13px;
+}
+
+#footer .inner .bottom span:last-child::after {
+  content: "|";
+  display: none;
+}
+
+#footer .inner .f-gnb li:first-child a {
+  padding-top: 0;
+}
+
+#footer .inner .f-gnb li a {
+  padding: 15px 0;
+  color: #dbdbdb;
+}
+
+#footer .inner .newsArea {
+  padding-left: 103px;
+}
+
+#footer .inner .newsArea .inputWrap {
+  margin-top: 16px;
+  display: flex;
+  align-items: center;
+}
+
+#footer .inner .newsArea .inputWrap > * {
+  box-sizing: border-box;
+}
+
+#footer .inner .newsArea .inputWrap input {
+  padding: 10px;
+  margin-right: 10px;
+  width: auto;
+  height: 38px;
+  border: none;
+  border-radius: 3px;
+  color: #44465d;
+}
+
+#footer .inner .newsArea .inputWrap button {
+  width: 73px;
+  height: 38px;
+  border: 1px solid #34d0ff;
+  color: #34d0ff;
+  background-color: transparent;
+  border-radius: 3px;
+}
+
+#footer .inner .newsArea .icons {
+  margin-top: 40px;
+  display: flex;
+}
+
+#footer .inner .newsArea .icons li a {
+  margin: 0 12px;
+  width: 30px;
+  height: 30px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url(../assets/images/logo/f-logo-3x.png);
+}
+
+#footer .inner .newsArea .icons li:nth-of-type(1) a {
+  margin-left: 0;
+  background-image: url(../assets/icons/aos-app-3x.png);
+}
+
+#footer .inner .newsArea .icons li:nth-of-type(2) a {
+  background-image: url(../assets/icons/ios-app-3x.png);
+}
+
+#footer .inner .newsArea .icons li:nth-of-type(3) a {
+  background-image: url(../assets/icons/github-3x.png);
+}
+
+#footer .inner .newsArea .icons li:nth-of-type(4) a {
+  background-image: url(../assets/icons/segment-3x.png);
+}
+
+#footer .copy {
+  width: 1270px;
+  margin: 0 auto;
+  color: #dbdbdb;
+  font-size: 10px;
+}
+
+@media screen and (max-width: 1270px) {
+  #footer .inner {
+    padding: 0 15px;
+    width: 100%;
+  }
+
+  #footer .copy {
+    padding: 0 15px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 912px) {
+  #footer .inner {
+    padding: 0 15px;
+    width: 100%;
+    display: block;
+  }
+
+  #footer .inner .bottom p {
+    font-size: 12px;
+    margin-bottom: 0;
+    color: #f1f1f5;
+  }
+
+  #footer .inner .item {
+    width: 100%;
+  }
+
+  #footer .inner .item:last-child {
+    display: block;
+  }
+
+  #footer .inner .item > * {
+    margin: 20px 0;
+  }
+
+  #footer .inner .item .f-gnb li {
+    padding: 0 11px;
+    display: inline-block;
+    position: relative;
+    font-size: 10px;
+  }
+
+  #footer .inner .item .f-gnb li:first-of-type {
+    padding-left: 0;
+  }
+
+  #footer .inner .item .f-gnb li:last-of-type {
+    padding-right: 0;
+  }
+
+  #footer .inner .item .f-gnb li:last-of-type::after {
+    display: none;
+  }
+
+  #footer .inner .item .f-gnb li::after {
+    content: "|";
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #fff;
+    font-size: 10px;
+  }
+
+  #footer .inner .item .f-gnb li a {
+    padding: 0;
+  }
+
+  #footer .inner .newsArea {
+    padding-left: 0;
+  }
+
+  #footer .inner .newsArea .inputWrap {
+    width: 100%;
+  }
+
+  #footer .inner .newsArea .inputWrap input {
+    width: calc(100% - 73px);
+  }
+}

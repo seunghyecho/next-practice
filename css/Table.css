@@ -1,0 +1,50 @@
+/* table */
+.ant-table-container table > thead {
+  display: none;
+}
+.ant-table table {
+  border-top: solid 1px #f1f1f5;
+}
+.ant-table-tbody > tr > td:first-child {
+  text-align: center;
+  width: 10%;
+}
+.ant-table-tbody > tr > td:nth-of-type(2) {
+  width: 80%;
+  font-weight: 500;
+  color: #191919;
+}
+.ant-table-tbody > tr > td:nth-of-type(3) {
+  width: 10%;
+  font-weight: 500;
+  color: #aaaaaa;
+}
+.ant-table-container table a {
+  font-weight: 600;
+  color: #505050;
+}
+.ant-pagination {
+  display: none;
+}
+
+.field > * {
+  margin-right: 5px;
+}
+.field span {
+  font-size: 11px;
+  font-weight: 500;
+  text-align: left;
+  color: #aaaaaa;
+}
+.field span:first-child {
+  color: #505050;
+}
+
+@media screen and (max-width: 1270px) {
+  .ant-table table tbody {
+    text-align-last: left;
+  }
+  .ant-table-tbody > tr > td {
+    padding: 16px 0;
+  }
+}

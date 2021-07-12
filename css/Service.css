@@ -1,0 +1,577 @@
+/* audiencM : s */
+.section {
+  padding: 140px 0;
+  margin: 0 auto;
+  width: 1270px;
+  border-bottom: 1px solid #f1f1f5;
+}
+.audienceM .goods {
+  padding: 140px 0;
+  margin: 0 auto;
+  width: 1270px;
+  border-bottom: 1px solid #f1f1f5;
+}
+.bg {
+  height: 530px;
+  background-color: #f1f1f5;
+}
+.bg .inner {
+  margin: 0 auto;
+  width: 1270px;
+}
+.pageTit {
+  margin: 92px auto 55px;
+  width: 1270px;
+}
+.pageTit h1 {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 1.35;
+  text-align: left;
+  color: #191919;
+  text-decoration: underline;
+}
+.pageTit p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.67;
+  letter-spacing: -0.45px;
+  text-align: left;
+  color: #191919;
+}
+
+.goods .inner {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.goods .inner.reverse {
+  flex-direction: row-reverse;
+}
+.inner .imgWrap.img00 {
+  width: 856px;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+.goods .inner .imgWrap.img01 {
+  width: 280px;
+}
+.goods .inner .imgWrap.img02 {
+  width: 341px;
+}
+.goods .inner .imgWrap.img03 {
+  width: 358px;
+}
+.goods .inner .imgWrap.img04 {
+  width: 525px;
+}
+.goods .inner .imgWrap.img05 {
+  width: 512px;
+}
+.goods .inner .imgWrap.img06 {
+  width: 435px;
+}
+
+.goods .inner .item {
+  width: 40%;
+  text-align: left;
+}
+
+.goods .inner .item h2 {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 2.22;
+  letter-spacing: -0.9px;
+  color: #191919;
+}
+.goods .inner .item p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.56;
+  letter-spacing: -0.45px;
+  color: #505050;
+}
+.goods .inner .item button {
+  margin-top: 48px;
+  width: 50%;
+  height: 60px;
+  line-height: 60px;
+  border-radius: 4px;
+  background-color: #34d0ff;
+  border: none;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  color: #ffffff;
+}
+/* audiencM : e */
+
+/* service 2 contents : s */
+.contents .section {
+  margin: 100px auto;
+  padding: 0 0;
+  border-bottom: none;
+}
+.contents .section .appArea {
+  display: flex;
+}
+.contents .section .appArea .item {
+  width: calc(100% / 3);
+  margin: 0 15px;
+}
+.contents .section .appArea .item:first-child {
+  margin-left: 0;
+}
+.contents .section .appArea .item:last-child {
+  margin-right: 0;
+}
+.contents .section .appArea .item .osArea {
+  margin-top: 24px;
+  line-height: 0;
+}
+.contents .section .appArea .item .osArea button {
+  padding: 0;
+  margin: 0 7px;
+  width: calc(50% - 7px);
+  height: 55px;
+  border: none;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.contents .section .appArea .item .osArea button.ios {
+  background-image: url(../assets/images/service/b2c_ios.png);
+}
+.contents .section .appArea .item .osArea button.aos {
+  background-image: url(../assets/images/service/b2c_aos.png);
+}
+.contents .section .appArea .item .osArea button:first-child {
+  margin-left: 0;
+}
+.contents .section .appArea .item .osArea button:last-child {
+  margin-right: 0;
+}
+.contents .section .b2bArea .inner {
+  align-items: center;
+  flex-wrap: nowrap;
+}
+.contents .section .b2bArea .inner .b2bIcon {
+  float: left;
+  width: calc(100% / 3 - 15px);
+  margin-bottom: 15px;
+  margin-right: 15px;
+  height: 125px;
+  border: solid 1px #dbdbdb;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contents .section .b2bArea .inner .b2bIcon span {
+  width: 50%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  display: block;
+  box-sizing: border-box;
+}
+.contents .section .b2bArea .inner .b2bIcon:nth-of-type(1) span {
+  height: 35px;
+  background-image: url(../assets/images/service/b2b_01.png);
+}
+.contents .section .b2bArea .inner .b2bIcon:nth-of-type(2) span {
+  background-image: url(../assets/images/service/b2b_02.png);
+}
+.contents .section .b2bArea .inner .b2bIcon:nth-of-type(3) span {
+  background-image: url(../assets/images/service/b2b_03.png);
+}
+.contents .section .b2bArea .inner .b2bIcon:nth-of-type(4) span {
+  height: 35px;
+  background-image: url(../assets/images/service/b2b_04.png);
+}
+.contents .section .b2bArea .inner .b2bIcon:nth-of-type(5) span {
+  background-image: url(../assets/images/service/b2b_05.png);
+}
+.contents .section .b2bArea .inner .b2bIcon:nth-of-type(6) span {
+  height: 60%;
+  background-image: url(../assets/images/service/b2b_06.png);
+}
+.contents .section .b2bArea .inner .b2bIcon:nth-of-type(7) span {
+  background-image: url(../assets/images/service/b2b_07.png);
+}
+.contents .section .b2bArea .inner .b2bIcon:nth-of-type(8) span {
+  background-image: url(../assets/images/service/b2b_08.png);
+}
+.contents .section .b2bArea .inner .b2bIcon:nth-of-type(9) span {
+  height: 35px;
+  background-image: url(../assets/images/service/b2b_09.png);
+}
+.Service .section.banner-btm {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 670px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-bottom: none;
+  position: relative;
+  z-index: 0;
+}
+.contents .section.banner-btm {
+  background-image: url(../assets/images/service/banner_btm.jpg);
+}
+.develop .section.banner-btm {
+  background-image: url(../assets/images/service/banner_btm_develop.jpg);
+}
+.Service .section.banner-btm::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+}
+.Service .section.banner-btm .inner {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  border-bottom: none;
+}
+.Service .section.banner-btm .inner .title {
+  font-size: 42px;
+  font-weight: 600;
+  line-height: 1.38;
+  letter-spacing: -1.05px;
+  text-align: center;
+  color: #ffffff;
+}
+.Service .section.banner-btm .inner .sub {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: -0.6px;
+  text-align: center;
+  color: #ffffff;
+}
+/* service 2 contents : e */
+
+/* service 3 develop : s */
+.Service.develop section {
+  padding-bottom: 100px;
+  border-bottom: 1px solid #f1f1f5;
+}
+.Service.develop .slide3.slide3_develop {
+  padding-top: 50px;
+}
+.Service.develop section {
+  padding: 100px 0;
+  margin: 0 auto;
+  width: 1270px;
+}
+.Service.develop section .inner.dp-f {
+  display: flex;
+  justify-content: space-around;
+}
+.Service.develop section .inner .pageTit {
+  width: auto;
+  margin: 0;
+}
+.Service.develop section .inner .portfolioItems .item {
+  float: left;
+  width: calc(100% / 3 - 30px);
+  background-color: #000;
+  margin-right: 30px;
+  margin-bottom: 15px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  z-index: 0;
+}
+.Service.develop section .inner .portfolioItems .item::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.Service.develop section .inner .portfolioItems .item.item01 {
+  height: 447px;
+  background-image: url(../assets/images/service/img_portfolio_01.png);
+}
+.Service.develop section .inner .portfolioItems .item.item02 {
+  height: 326px;
+  background-image: url(../assets/images/service/img_portfolio_02.png);
+}
+.Service.develop section .inner .portfolioItems .item.item03 {
+  height: 590px;
+  background-image: url(../assets/images/service/img_portfolio_03.png);
+}
+.Service.develop section .inner .portfolioItems .item.item04 {
+  margin-top: -129px;
+  height: 469px;
+  background-image: url(../assets/images/service/img_portfolio_04.png);
+}
+.Service.develop section .inner .portfolioItems .item.item05 {
+  margin-top: -250px;
+  height: 590px;
+  background-image: url(../assets/images/service/img_portfolio_05.png);
+}
+.Service.develop section .inner .portfolioItems .item.item06 {
+  margin-top: 14px;
+  height: 326px;
+  background-image: url(../assets/images/service/img_portfolio_06.png);
+}
+.Service.develop section .inner .portfolioItems .item:last-child {
+  margin-right: 0;
+}
+.Service.develop section .inner .portfolioItems .item .logo {
+  position: absolute;
+  top: 20px;
+  left: 30px;
+  width: auto;
+  z-index: 1;
+  color: #fff;
+  text-align: left;
+}
+.Service.develop section .inner .portfolioItems .item .logo p {
+  box-sizing: border-box;
+  position: relative;
+}
+.Service.develop section .inner .portfolioItems .item .logo p::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Service.develop section .inner .portfolioItems .item01 .logo p::after {
+  width: 100px;
+  height: 55px;
+  bottom: -60px;
+  background-image: url(../assets/images/service/portfolio01.png);
+}
+.Service.develop section .inner .portfolioItems .item02 .logo p::after {
+  width: 165px;
+  height: 15px;
+  bottom: -20px;
+  background-image: url(../assets/images/service/portfolio02.png);
+}
+.Service.develop section .inner .portfolioItems .item03 .logo p::after {
+  width: 166px;
+  height: 55px;
+  bottom: -45px;
+  background-image: url(../assets/images/service/portfolio03.png);
+}
+.Service.develop section .inner .portfolioItems .item04 .logo p::after {
+  width: 87px;
+  height: 68px;
+  bottom: -66px;
+  background-image: url(../assets/images/service/portfolio04.png);
+}
+.Service.develop section .inner .portfolioItems .item05 .logo p::after {
+  width: 185px;
+  height: 30px;
+  bottom: -40px;
+  background-image: url(../assets/images/service/portfolio05.png);
+}
+.Service.develop section .inner .portfolioItems .item06 .logo p::after {
+  width: 116px;
+  height: 40px;
+  bottom: -40px;
+  background-image: url(../assets/images/service/portfolio06.png);
+}
+/* service 3 develop : e */
+@media screen and (max-width: 1270px) {
+}
+
+@media screen and (max-width: 912px) {
+  .bg {
+    height: 480px;
+  }
+  .Service .pageTit {
+    padding: 0 15px;
+  }
+  .pageTit {
+    margin: 40px auto;
+    width: 100%;
+  }
+  .pageTit h1 {
+    font-size: 28px;
+    text-decoration: underline;
+  }
+  .pageTit p {
+    font-size: 15px;
+  }
+  .goods {
+    padding: 60px 15px;
+    width: 100%;
+  }
+  .audienceM .goods {
+    padding: 0 15px;
+    width: 100%;
+    border-bottom: none;
+  }
+  .audienceM .goods .inner {
+    padding: 60px 0;
+  }
+  .goods .inner {
+    flex-direction: column-reverse;
+    border-bottom: 1px solid #f1f1f5;
+  }
+  .goods .inner.reverse {
+    flex-direction: column-reverse;
+  }
+  .goods .inner .imgWrap.img01,
+  .goods .inner .imgWrap.img02 {
+    width: 50%;
+  }
+  .goods .inner .imgWrap.img02 {
+    width: 70%;
+  }
+  .goods .inner .imgWrap.img03 {
+    width: 60%;
+  }
+  .goods .inner .imgWrap.img04,
+  .goods .inner .imgWrap.img05,
+  .goods .inner .imgWrap.img06 {
+    width: 100%;
+  }
+  .goods .inner .item {
+    width: 100%;
+  }
+  .goods .inner .item h2 {
+    font-size: 24px;
+    line-height: 1.78;
+    letter-spacing: -0.6px;
+    text-decoration: underline;
+  }
+  .goods .inner .item p {
+    margin-bottom: 30px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.6;
+    letter-spacing: -0.38px;
+  }
+  .goods .inner .item button {
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    margin: 22px 0 55px;
+    background-color: #8986ff;
+  }
+  .inner .imgWrap.img00 {
+    padding: 30px;
+  }
+  .bg .inner {
+    width: 100%;
+    overflow-x: scroll;
+  }
+  .section {
+    width: 100%;
+  }
+  /* contents */
+  .contents .section {
+    margin: 40px auto;
+  }
+  /* service 2 : s */
+  .Service .section .appArea {
+    flex-direction: column;
+  }
+  .Service .section .appArea .item {
+    margin: 20px 0;
+    padding: 0 15px;
+    width: 100%;
+  }
+  .Service .section .b2bArea .inner {
+    padding: 0 15px;
+  }
+  .Service .section .b2bArea .inner .b2bIcon {
+    width: calc(100% / 2 - 6px);
+    height: 68px;
+    margin-right: 12px;
+  }
+  .Service .section .b2bArea .inner .b2bIcon:nth-of-type(2n) {
+    margin-right: 0;
+  }
+  .contents .section .b2bArea .inner .b2bIcon:nth-of-type(2) span {
+    width: 100%;
+  }
+  .contents .section .b2bArea .inner .b2bIcon:nth-of-type(5) span {
+    width: 60%;
+  }
+  .Service .section.banner-btm {
+    height: 472px;
+  }
+  .Service .section.banner-btm .inner {
+    padding: 0 15px;
+  }
+  .Service .section.banner-btm .inner .title {
+    font-size: 24px;
+  }
+  .Service .section.banner-btm .inner .sub {
+    font-size: 15px;
+  }
+  /* service 2 : s */
+  .Service.develop section {
+    padding: 0;
+    width: 100%;
+    border-bottom: none;
+  }
+  .Service.develop .slide3.slide3_develop {
+    padding-top: 0;
+    padding-bottom: 30px;
+  }
+  .Service.develop section:nth-of-type(2) .inner {
+    border-top: 1px solid #f1f1f5;
+  }
+  .Service.develop section .inner {
+    padding: 40px 15px;
+    border-bottom: 1px solid #f1f1f5;
+  }
+  .Service.develop section .inner.dp-f {
+    display: block;
+  }
+  .Service.develop section .inner .graph {
+    margin-top: 40px;
+  }
+  .Service.develop section .inner .portfolioItems .item {
+    float: none;
+    width: 100%;
+    height: 280px;
+  }
+  .Service.develop section .inner .portfolioItems .item.item01 {
+    height: 280px;
+  }
+  .Service.develop section .inner .portfolioItems .item.item02 {
+    height: 280px;
+  }
+  .Service.develop section .inner .portfolioItems .item.item03 {
+    height: 280px;
+  }
+  .Service.develop section .inner .portfolioItems .item.item04 {
+    margin-top: 0;
+    height: 280px;
+  }
+  .Service.develop section .inner .portfolioItems .item.item05 {
+    margin-top: 0;
+    height: 280px;
+  }
+  .Service.develop section .inner .portfolioItems .item.item06 {
+    margin-top: 0;
+    height: 280px;
+  }
+}
