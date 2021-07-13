@@ -43,9 +43,6 @@ function About() {
               <div className="logo01"></div>
               <div className="logo02"></div>
               <div className="logo03"></div>
-              {/* <Image src={logo01} alt="logo01" />
-              <Image src={logo02} alt="logo02" />
-              <Image src={logo03} alt="logo03" /> */}
             </div>
           </div>
         </div>
