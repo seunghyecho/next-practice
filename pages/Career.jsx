@@ -2,8 +2,6 @@ import ReactDOM from "react-dom";
 
 import styled from "styled-components";
 
-import Colors from "../utils/Colors";
-
 import Banner_sub from "../components/Templates/Banner/Sub";
 import Tab_career from "../components/Templates/Tab/Tab_career";
 import Table_career from "../components/Templates/Table/Table_career";
@@ -14,8 +12,8 @@ const Button = styled.button`
   padding: 10px 40px;
   font-size: 18px;
   width: 100%;
-  color: ${Colors.gray};
-  border: 1px solid ${Colors.gray};
+  color: ${(props) => props.theme.gray};
+  border: 1px solid ${(props) => props.theme.gray};
   border-radius: 3px;
   cursor: pointer;
   margin-top: 30px;

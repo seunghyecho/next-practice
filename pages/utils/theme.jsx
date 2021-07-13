@@ -1,4 +1,4 @@
-const Colors = {
+const theme = {
   red: "#f70000",
   blue: "#0014f2",
   purple: "#8986ff",
@@ -7,4 +7,4 @@ const Colors = {
   pink:"#f16892",
 };
 
-export default Colors;
+export default theme;

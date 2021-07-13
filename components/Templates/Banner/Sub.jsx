@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import Colors from "../../../utils/Colors";
 
 function Banner_sub({title,sub}) {
   return (

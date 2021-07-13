@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 import styled from "styled-components";
 
-import Colors from "../utils/Colors";
+import Colors from "./utils/theme";
 
 import Banner_sub from "../components/Templates/Banner/Sub";
 import Tab_develop from "../components/Templates/Tab/Tab_service_develop";

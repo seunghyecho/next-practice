@@ -2,15 +2,8 @@ import { useState } from "react";
 
 import styled from "styled-components";
 
-import Colors from "../utils/Colors";
-
 import Banner_sub from "../components/Templates/Banner/Sub";
 import Privacy from "../components/Templates/Modal/Privacy";
-
-
-// 답답해서 임포트한 jQuery
-import jQuery from "jquery";
-window.$ = window.jQuery = jQuery;
 
 // button purple
 const Button = styled.button`
@@ -19,7 +12,7 @@ const Button = styled.button`
   font-size: 18px;
   width: auto;
   color: #fff;
-  background-color: ${Colors.skyblue};
+  background-color:  ${(props) => props.theme.skyblue};
   border-radius: 3px;
   border: none;
   cursor: pointer;
@@ -31,16 +24,7 @@ const Button = styled.button`
 
 function Contact() {
   const [modalStatus, setModalStatus] = useState(false);
-  if (modalStatus == true) {
-    console.log(modalStatus);
-    jQuery("html,body").css({
-      overflow: "hidden",
-    });
-  } else {
-    jQuery("html,body").css({
-      overflow: "auto",
-    });
-  }
+
   return (
     <div className="Contact">
       <Banner_sub title="FLES : SELF" sub="내 안의 잠재 가능성을 깨우자" />
@@ -69,7 +53,7 @@ function Contact() {
       </section>
       <section>
         <h1 className="animated fadeInUp">기본 정보를 입력해주세요.</h1>
-        <form>
+        <form className="form">
           <div className="inputArea">
             <input type="text" placeholder="회사" />
             <input type="text" placeholder="담당자 성함 (필수)" />
