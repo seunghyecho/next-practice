@@ -19,65 +19,63 @@ function Header() {
   const [modalStatus, setModalStatus] = useState(false);
 
   return (
-    <>
-      <Positioner>
-        <div id="header">
-          <div className="inner">
-            <div className="menu_mobile mobile">
-              <button
-                className="menuBtn"
-                onClick={() => setModalStatus(() => true)}
-              ></button>
-              {modalStatus && <Menu close={setModalStatus} />}
-            </div>
-            <div className="logo">
-              <a href="/"></a>
-            </div>
-            <div className="gnb">
-              <ul className="gnbUl">
-                <li>
-                  <Link href="/About">ABOUT</Link>
-                </li>
-                <li>
-                  <a href="#">SERVICE</a>
-                  <ul className="gnbSubUl">
-                    <li>
-                      <Link href="/Service_audienceM">AudienceM</Link>
-                    </li>
-                    <li>
-                      <Link href="/Service_contents">Contents</Link>
-                    </li>
-                    <li>
-                      <Link href="/Service_develop">Development</Link>
-                    </li>
-                  </ul>
-                </li>
-                <li>
-                  <a href="/">LIBRARY</a>
-                  <ul className="gnbSubUl">
-                    <li>
-                      <Link href="/">AudienceM사례</Link>
-                    </li>
-                    <li>
-                      <Link href="/Column">Column</Link>
-                    </li>
-                    <li>
-                      <Link href="/News">News</Link>
-                    </li>
-                  </ul>
-                </li>
-                <li>
-                  <Link href="/Career">CAREER</Link>
-                </li>
-                <li>
-                  <Link href="/Contact">CONTACT</Link>
-                </li>
-              </ul>
-            </div>
+    <Positioner>
+      <div id="header">
+        <div className="inner">
+          <div className="menu_mobile mobile">
+            <button
+              className="menuBtn"
+              onClick={() => setModalStatus(() => true)}
+            ></button>
+            {modalStatus && <Menu close={setModalStatus} />}
+          </div>
+          <div className="logo">
+            <a href="/"></a>
+          </div>
+          <div className="gnb">
+            <ul className="gnbUl">
+              <li>
+                <Link href="/About">ABOUT</Link>
+              </li>
+              <li>
+                <a href="#">SERVICE</a>
+                <ul className="gnbSubUl">
+                  <li>
+                    <Link href="/Service_audienceM">AudienceM</Link>
+                  </li>
+                  <li>
+                    <Link href="/Service_contents">Contents</Link>
+                  </li>
+                  <li>
+                    <Link href="/Service_develop">Development</Link>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="/">LIBRARY</a>
+                <ul className="gnbSubUl">
+                  <li>
+                    <Link href="/">AudienceM사례</Link>
+                  </li>
+                  <li>
+                    <Link href="/Column">Column</Link>
+                  </li>
+                  <li>
+                    <Link href="/News">News</Link>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <Link href="/Career">CAREER</Link>
+              </li>
+              <li>
+                <Link href="/Contact">CONTACT</Link>
+              </li>
+            </ul>
           </div>
         </div>
-      </Positioner>
-    </>
+      </div>
+    </Positioner>
   );
 }
 

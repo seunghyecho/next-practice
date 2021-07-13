@@ -1,3 +1,4 @@
+import Link from "next/link";
 
 function Footer() {
   return (
@@ -6,7 +7,7 @@ function Footer() {
         <div className="inner">
           <div className="item">
             <div className="top">
-              <a href="/common" className="logo"></a>
+              <a href="/" className="logo"></a>
               <p className="ff-r">Accelerating your business with data</p>
             </div>
             <div className="bottom">
@@ -21,19 +22,19 @@ function Footer() {
           <div className="item">
             <ul className="f-gnb ff-r">
               <li>
-              <a href="/flesCompany/about">ABOUT</a>
+                <Link href="/About">ABOUT</Link>
               </li>
               <li>
-              <a href="/flesCompany/audienceM">SERVICE</a>
+                <Link href="/Service_audienceM">SERVICE</Link>
               </li>
               <li>
-              <a href="/flesCompany/column">LIBRARY</a>
+                <Link href="/Column">LIBRARY</Link>
               </li>
               <li>
-              <a href="/flesCompany/career">CAREER</a>
+                <Link href="/Career">CAREER</Link>
               </li>
               <li>
-              <a href="/flesCompany/contact">CONTACT</a>
+                <Link href="/Contact">CONTACT</Link>
               </li>
             </ul>
             <div className="newsArea">
