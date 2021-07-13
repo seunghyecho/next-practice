@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Image from 'next/image';
+import Image from "next/image";
 
 import styled from "styled-components";
 
@@ -43,7 +43,7 @@ const Content = styled.div.attrs((props) => {})`
 `;
 
 const Inner = styled.div`
-  width: 100%;
+  width: 1194px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -58,7 +58,7 @@ const Button = styled.button`
   font-size: 18px;
   width: auto;
   color: #fff;
-  background-color:  ${(props) => props.theme.purple};
+  background-color: ${(props) => props.theme.purple};
   border-radius: 3px;
   border: none;
   cursor: pointer;
@@ -85,9 +85,7 @@ const RightArrowButton = styled.button`
   box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
 
   position: absolute;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  right: 12%;
+  right: 0;
 
   @media screen and (max-width: 912px) {
     display: none;
@@ -110,9 +108,7 @@ const LeftArrowButton = styled.button`
   box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
 
   position: absolute;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  left: 12%;
+  left: 0;
 
   @media screen and (max-width: 912px) {
     display: none;
@@ -205,12 +201,12 @@ function MottoCarousel() {
                   채용공고 보기
                 </Button>
               </Link>
+              <RightArrowButton onClick={next} />
+              <LeftArrowButton onClick={previous} />
             </Inner>
           </Content>
         ))}
       </Carousel>
-      <RightArrowButton onClick={next} />
-      <LeftArrowButton onClick={previous} />
     </Contain>
   );
 }
