@@ -316,7 +316,23 @@
 
 @media screen and (max-width: 912px) {
   .slide3.slide3_develop .img {
-    height: 300px;
+    height: 150px;
+    
+  }
+  .slide3.slide3_develop .img.img01{
+    background-size: contain;
+  }
+  .slide3.slide3_develop .img.img02{
+    background-size: contain;
+  }
+  .slide3.slide3_develop .img.img03{
+    background-size: contain;
+  }
+  .slide3.slide3_develop .img.img04{
+    background-size: contain;
+  }
+  .slide3 .slick-dots{
+    margin-top: 10px;
   }
   .slide4 {
     width: 100%;

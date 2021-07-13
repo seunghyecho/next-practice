@@ -44,8 +44,8 @@ function Service2() {
       <Banner_sub title="Contents" sub="For Personalize" />
       <section className="section">
         <div className="pageTit">
-          <h1 className="ff-r">B2C</h1>
-          <p>
+          <h1 className="animated fadeInUp ff-r">B2C</h1>
+          <p className="animated fadeInUp">
             FLES에서 운영하는 운세 및 타로 서비스입니다. <br className="mobile"/>500개 이상의 컨텐츠를
             운영하였고, 50만명의 회원과 함께합니다.
           </p>
@@ -82,7 +82,7 @@ function Service2() {
       </section>
       <section className="section">
         <div className="pageTit">
-          <h1 className="ff-r">B2B</h1>
+          <h1 className="animated fadeInUp ff-r">B2B</h1>
         </div>
         <div className="b2bArea">
           <div className="inner clear">

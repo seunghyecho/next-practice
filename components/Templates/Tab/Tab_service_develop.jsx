@@ -53,8 +53,8 @@ function Tab() {
         ))}
       </div>
       <div className="content">
-        <h2 className="ff-r">{contentItem.content01}</h2>
-        <h3>{contentItem.content02}</h3>
+        <h2 className="animated fadeInUp ff-r">{contentItem.content01}</h2>
+        <h3 className="animated fadeInUp">{contentItem.content02}</h3>
       </div>
     </div>
   );

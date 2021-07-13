@@ -45,8 +45,8 @@ function Service3() {
       <Banner_sub title="Development" sub="Ma-Tech & ecommerce" />
       <div>
         <div className="pageTit">
-          <h1 className="ff-r">IT Solution</h1>
-          <p>
+          <h1 className="animated fadeInUp ff-r">IT Solution</h1>
+          <p className="animated fadeInUp">
             비즈니스 여정에 따라
             <br className="mobile" /> 필요한 Tech의 수준도 변화합니다.
             <br />
@@ -57,8 +57,8 @@ function Service3() {
       </div>
       <section>
         <div className="pageTit">
-          <h1 className="ff-r">Ma-Tech</h1>
-          <p>
+          <h1 className="animated fadeInUp ff-r">Ma-Tech</h1>
+          <p className="animated fadeInUp">
             브랜드사를 위한 통합 마케팅 관리 솔루션
             <br />
             채널별 목표매출 관리부터 ROAS 관리까지 한번에
@@ -69,8 +69,8 @@ function Service3() {
       <section>
         <div className="inner dp-f">
           <div className="pageTit">
-            <h1 className="ff-r">브랜드별 KPI 관리</h1>
-            <p>
+            <h1 className="animated fadeInUp ff-r">브랜드별 KPI 관리</h1>
+            <p className="animated fadeInUp">
               브랜드사를 위한 통합 마케팅 관리 솔루션 <br />
               채널별 목표매출 관리부터 ROAS 관리까지 한번에
             </p>
@@ -86,8 +86,8 @@ function Service3() {
       <section>
         <div className="inner dp-f">
           <div className="pageTit">
-            <h1 className="ff-r">판매채널별 실적관리</h1>
-            <p>판매채널별 판매실적 별도 수집</p>
+            <h1 className="animated fadeInUp ff-r">판매채널별 실적관리</h1>
+            <p className="animated fadeInUp">판매채널별 판매실적 별도 수집</p>
           </div>
           <div className="graph pc">
             <Image src={dev_img06} alt="dev_img06"/>
@@ -100,8 +100,8 @@ function Service3() {
       <section>
         <div className="inner dp-f">
           <div className="pageTit">
-            <h1 className="ff-r">브랜드별 실적관리</h1>
-            <p>다수 브랜드 운영 시, 각 브랜드별 데이터 관리 가능</p>
+            <h1 className="animated fadeInUp ff-r">브랜드별 실적관리</h1>
+            <p className="animated fadeInUp">다수 브랜드 운영 시, 각 브랜드별 데이터 관리 가능</p>
           </div>
           <div className="graph pc">
             <Image src={dev_img07} alt="dev_img07"/>
@@ -114,7 +114,7 @@ function Service3() {
       <section>
         <div className="inner">
           <div className="pageTit">
-            <h1 className="ff-r">Portfolio</h1>
+            <h1 className="animated fadeInUp ff-r">Portfolio</h1>
           </div>
           <div className="portfolioItems clear">
             <div className="item item01">

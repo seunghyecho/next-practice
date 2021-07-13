@@ -68,7 +68,7 @@
     padding: 35px 0;
   }
   .Tab .Tab-wrap {
-    padding: 0 15px;
+    padding: 15px;
     width: -webkit-fill-available;
     overflow-x: scroll;
     white-space: nowrap;

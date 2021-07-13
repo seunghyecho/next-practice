@@ -19,12 +19,12 @@ function About() {
       <Banner_sub title="Accelerating your business with data" />
       <section className="culture">
         <div className="inner d-flex">
-          <h1 className="ff-r">
+          <h1 className="animated fadeInUp ff-r">
             Culture <br />& Philosophy
           </h1>
           <div className="content">
-            <h3>“내 안의 잠재 가능성을 깨우자”</h3>
-            <p>
+            <h3 className="animated fadeInUp">“내 안의 잠재 가능성을 깨우자”</h3>
+            <p className="animated fadeInUp">
               공동의 목표와 신념을 위해 배움을 게을리하지 않고,
               <br />
               서로 존중하는 문화 속에서
@@ -37,7 +37,7 @@ function About() {
       <Tab />
       <section className="logo">
         <div className="inner">
-          <h1 className="ff-r">Logo</h1>
+          <h1 className="animated fadeInUp ff-r">Logo</h1>
           <div className="content">
             <div className="imgArea">
               <div className="logo01"></div>
@@ -49,7 +49,7 @@ function About() {
       </section>
       <section className="color">
         <div className="inner d-flex">
-          <h1 className="ff-r">Color</h1>
+          <h1 className="animated fadeInUp ff-r">Color</h1>
           <div className="content">
             <Image src={color} alt="color" />
           </div>
@@ -57,7 +57,7 @@ function About() {
       </section>
       <section className="vision">
         <div className="inner">
-          <h1 className="ff-r">Vision</h1>
+          <h1 className="animated fadeInUp ff-r">Vision</h1>
           <div className="content">
             데이터 기반의 비즈니스 성장,
             <br /> 비즈니스를 통한 인류 행복 기여

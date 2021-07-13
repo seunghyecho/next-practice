@@ -22,8 +22,8 @@ function Service1() {
     <div className="Service audienceM">
       <Banner_sub title="Audience Market" sub="Audience 거래 플랫폼" />
       <div className="pageTit">
-        <h1 className="ff-r">AudienceM</h1>
-        <p>플랫폼 구조도를 클릭하시면 보다 자세한 설명을 확인할 수 있습니다.</p>
+        <h1 className="animated fadeInUp ff-r">AudienceM</h1>
+        <p className="animated fadeInUp">플랫폼 구조도를 클릭하시면 보다 자세한 설명을 확인할 수 있습니다.</p>
       </div>
       <section className="bg">
         <div className="inner">
@@ -121,8 +121,8 @@ function Service1() {
             <Image src={img01} alt="img01" />
           </div>
           <div className="item">
-            <h2>SDK 제공 </h2>
-            <p>
+            <h2 className="animated fadeInUp">SDK 제공 </h2>
+            <p className="animated fadeInUp">
               FLES SDK 를 설치하고 <br />
               페르소나 리포트를 받아보세요.
             </p>
@@ -135,8 +135,8 @@ function Service1() {
             <Image src={img02} alt="img02" />
           </div>
           <div className="item">
-            <h2>AdID 사용료 & 수익분배</h2>
-            <p>
+            <h2 className="animated fadeInUp">AdID 사용료 & 수익분배</h2>
+            <p className="animated fadeInUp">
               수요기업의 AdID의 사용 빈도에 따라 <br />
               공급기업에게 수익이 분배됩니다.
             </p>
@@ -149,8 +149,8 @@ function Service1() {
             <Image src={img03} alt="img03" />
           </div>
           <div className="item">
-            <h2>AdID 를 통한 광고집행</h2>
-            <p>
+            <h2 className="animated fadeInUp">AdID 를 통한 광고집행</h2>
+            <p className="animated fadeInUp">
               AdID 공유가 가능한 채널로는 <br />
               네이버, 페이스북, 카카오톡이 있습니다.
             </p>
@@ -163,8 +163,8 @@ function Service1() {
             <Image src={img04} alt="img04" />
           </div>
           <div className="item">
-            <h2>인공지능 모델링</h2>
-            <p>
+            <h2 className="animated fadeInUp">인공지능 모델링</h2>
+            <p className="animated fadeInUp">
               데이터마이닝과 머신러닝 최고의 석학들인 <br />
               서울대학교 산업공학과 데이터마이닝 연구실과 함께
               <br className="mobile" /> 연구한 <br className="pc" />
@@ -180,8 +180,8 @@ function Service1() {
             <Image src={img05} alt="img05" />
           </div>
           <div className="item">
-            <h2>공급기업</h2>
-            <p>
+            <h2 className="animated fadeInUp">공급기업</h2>
+            <p className="animated fadeInUp">
               SDK 를 통해 AdID 를 제공하는 기업으로,
               <br />
               앱을 통해 추가 수익을 창출할 수 있습니다. <br />
@@ -198,8 +198,8 @@ function Service1() {
             <Image src={img06} alt="img06" />
           </div>
           <div className="item">
-            <h2>수요기업</h2>
-            <p>
+            <h2 className="animated fadeInUp">수요기업</h2>
+            <p className="animated fadeInUp">
               광고를 집행하기 위해 AdID 공유를 요청한 기업으로, <br />
               FLES 의 퍼포먼스 마케팅 전문가와의 상담을 통해 <br />
               최고 효율의 타겟군 설정 및 AdID 추출을 통해 <br />
