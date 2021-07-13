@@ -139,6 +139,11 @@
   background-size: cover;
   background-position: center;
 }
+.contents .section .appArea .item .osArea button a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
 .contents .section .appArea .item .osArea button.ios {
   background-image: url(/images/service/b2c_ios.png);
 }

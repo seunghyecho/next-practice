@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import Image from "next/image";
 
 import styled from "styled-components";
 
@@ -27,7 +27,7 @@ const Button = styled.button`
   font-size: 18px;
   width: auto;
   color: #fff;
-  background-color:  ${(props) => props.theme.purple};;
+  background-color: ${(props) => props.theme.purple};
   border-radius: 3px;
   border: none;
   cursor: pointer;
@@ -46,8 +46,9 @@ function Service2() {
         <div className="pageTit">
           <h1 className="animated fadeInUp ff-r">B2C</h1>
           <p className="animated fadeInUp">
-            FLES에서 운영하는 운세 및 타로 서비스입니다. <br className="mobile"/>500개 이상의 컨텐츠를
-            운영하였고, 50만명의 회원과 함께합니다.
+            FLES에서 운영하는 운세 및 타로 서비스입니다.{" "}
+            <br className="mobile" />
+            500개 이상의 컨텐츠를 운영하였고, 50만명의 회원과 함께합니다.
           </p>
         </div>
         <div className="appArea">
@@ -56,8 +57,18 @@ function Service2() {
               <Image src={b2c_01} alt="b2c_01" className="appIcon" />
             </div>
             <div className="osArea">
-              <button className="ios"></button>
-              <button className="aos"></button>
+              <button className="ios">
+                <a
+                  target="_blank"
+                  href="https://itunes.apple.com/app/id1052093404"
+                ></a>
+              </button>
+              <button className="aos">
+                <a
+                  target="_blank"
+                  href="https://play.google.com/store/apps/details?id=com.firstmecca.hellounsemobile"
+                ></a>
+              </button>
             </div>
           </div>
           <div className="item ">
@@ -65,8 +76,18 @@ function Service2() {
               <Image src={b2c_02} alt="b2c_02" className="appIcon" />
             </div>
             <div className="osArea">
-              <button className="ios"></button>
-              <button className="aos"></button>
+              <button className="ios">
+              <a
+                  target="_blank"
+                  href="https://itunes.apple.com/app/id1037577911"
+                ></a>
+              </button>
+              <button className="aos">
+              <a
+                  target="_blank"
+                  href="https://play.google.com/store/apps/details?id=com.firstmecca.wonderunse"
+                ></a>
+              </button>
             </div>
           </div>
           <div className="item ">
@@ -74,8 +95,13 @@ function Service2() {
               <Image src={b2c_03} alt="b2c_03" className="appIcon" />
             </div>
             <div className="osArea">
-              <button className="ios" style={{"opacity": "0.5"}}></button>
-              <button className="aos"></button>
+              <button className="ios" style={{ opacity: "0.5" }}></button>
+              <button className="aos">
+              <a
+                  target="_blank"
+                  href="https://play.google.com/store/apps/details?id=com.firstmecca.botfriendsapp"
+                ></a>
+              </button>
             </div>
           </div>
         </div>

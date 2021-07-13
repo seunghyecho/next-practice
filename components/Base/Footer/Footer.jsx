@@ -45,16 +45,16 @@ function Footer() {
               </div>
               <ul className="icons">
                 <li>
-                  <a href="#" className="aosApp"></a>
+                  <a target='_blank' href="https://play.google.com/store/apps/details?id=com.firstmecca.hellounsemobile" className="aosApp"></a>
                 </li>
                 <li>
-                  <a href="#" className="iosApp"></a>
+                  <a target='_blank' href="https://itunes.apple.com/app/id1052093404" className="iosApp"></a>
                 </li>
                 <li>
-                  <a href="#" className="github"></a>
+                  <a target='_blank' href="https://github.com/flescompany" className="github"></a>
                 </li>
                 <li>
-                  <a href="#" className="segment"></a>
+                  <a target='_blank' href="https://github.com/flescompany" className="segment"></a>
                 </li>
               </ul>
             </div>
