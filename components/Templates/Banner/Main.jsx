@@ -2,9 +2,8 @@ import styled from "styled-components";
 
 import Link from "next/link";
 
-// import posterLogo from "../../../assets/images/logo/t-logo-3x-b.png";
-// import poster from "../../../assets/images/poster.jpg";
-// import mainVideo from "../../../assets/video/main-video.mov";
+import posterLogo from "/public/images/logo/t-logo-3x-b.png";
+import poster from "/public/images/poster.jpg";
 
 // button purple
 const Button = styled.button`
@@ -21,9 +20,9 @@ const Button = styled.button`
 function Banner_main() {
   return (
     <div className="banner">
-      {/* <video autoPlay muted loop playsInline id="myVideo" poster={poster}>
-        <source src={mainVideo} />
-      </video> */}
+      <video autoPlay muted loop playsInline id="myVideo" poster={poster}>
+        <source src="../video/main-video.mov" />
+      </video>
       <div className="inner">
         <h1>데이터를 통한 비즈니스 성장</h1>
         <h3>Accelerating your business with data</h3>
