@@ -200,7 +200,7 @@ function MottoCarousel() {
                 {data.content02}
               </div>
 
-              <Link href="/flesCompany/career">
+              <Link href="/Career">
                 <Button type="button" className="btnPurple">
                   채용공고 보기
                 </Button>

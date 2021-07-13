@@ -186,7 +186,7 @@ function ServiceCarousel() {
                 {data.content01} <br />
                 {data.content02}
               </div>
-              <Link href="/flesCompany/career">
+              <Link href="/Career">
                 <Button type="button" className="btnPurple">
                   활용사례 더보기
                 </Button>

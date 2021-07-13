@@ -29,7 +29,7 @@ function Header() {
             ></button>
             {modalStatus && <Menu close={setModalStatus} />}
           </div>
-          <div className="logo pc">
+          <div className="logo">
             <a href="/"></a>
           </div>
           <div className="gnb pc">
