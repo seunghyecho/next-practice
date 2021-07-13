@@ -3,19 +3,19 @@ import Image from 'next/image';
 import Banner_sub from "../components/Templates/Banner/Sub";
 import ServiceCarousel from "../components/Templates/Carousel/Service";
 
-import img00 from "../assets/images/service/img00.png";
-import img01 from "../assets/images/service/img01.png";
-import img02 from "../assets/images/service/img02.png";
-import img03 from "../assets/images/service/img03.png";
-import img04 from "../assets/images/service/img04.png";
-import img05 from "../assets/images/service/img05.png";
-import img05_1 from "../assets/images/service/img05_1.png";
-import img05_2 from "../assets/images/service/img05_2.png";
-import img05_3 from "../assets/images/service/img05_3.png";
-import img05_4 from "../assets/images/service/img05_4.png";
-import img05_5 from "../assets/images/service/img05_5.png";
-import img05_6 from "../assets/images/service/img05_6.png";
-import img06 from "../assets/images/service/img06.png";
+import img00 from "/public/images/service/img00.png";
+import img01 from "/public/images/service/img01.png";
+import img02 from "/public/images/service/img02.png";
+import img03 from "/public/images/service/img03.png";
+import img04 from "/public/images/service/img04.png";
+import img05 from "/public/images/service/img05.png";
+import img05_1 from "/public/images/service/img05_1.png";
+import img05_2 from "/public/images/service/img05_2.png";
+import img05_3 from "/public/images/service/img05_3.png";
+import img05_4 from "/public/images/service/img05_4.png";
+import img05_5 from "/public/images/service/img05_5.png";
+import img05_6 from "/public/images/service/img05_6.png";
+import img06 from "/public/images/service/img06.png";
 
 function Service1() {
   return (

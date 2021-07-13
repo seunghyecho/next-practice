@@ -1,7 +1,7 @@
 
 import styled from "styled-components";
 
-import closeBtn from "../../../assets/icons/close.png";
+import closeBtn from "/public/icons/close.png";
 
 const Modal = styled.div`
   position: fixed;
@@ -47,7 +47,7 @@ const CloseBtn = styled.button`
   background-repeat: no-repeat;
   background-size: 14px 14px;
   background-position: center;
-  background-image: url(../../../assets/icons/close.png);
+  background-image: url(/public/icons/close.png);
 `;
 
 function Privacy({ close }) {

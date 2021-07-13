@@ -3,14 +3,15 @@ import Image from "next/image";
 import Banner_sub from "../components/Templates/Banner/Sub";
 import Tab from "../components/Templates/Tab/Tab";
 
-import logo01 from "../assets/images/about/logo01.png";
-import logo02 from "../assets/images/about/logo02.png";
-import logo03 from "../assets/images/about/logo03.png";
-import color from "../assets/images/about/color.png";
-import img_about01 from "../assets/images/about/img_about01.jpg";
-import img_about02 from "../assets/images/about/img_about02.png";
-import img_about03 from "../assets/images/about/img_about03.jpg";
-import quote_w from "../assets/icons/quote-left-solid_w.svg";
+import logo01 from "/public/images/about/logo01.png";
+import logo02 from "/public/images/about/logo02.png";
+import logo03 from "/public/images/about/logo03.png";
+
+import color from "/public/images/about/color.png";
+
+import img_about01 from "/public/images/about/img_about01.jpg";
+import img_about02 from "/public/images/about/img_about02.png";
+import img_about03 from "/public/images/about/img_about03.jpg";
 
 function About() {
   return (
@@ -39,9 +40,12 @@ function About() {
           <h1 className="ff-r">Logo</h1>
           <div className="content">
             <div className="imgArea">
-              <Image src={logo01} alt="logo01" />
+              <div className="logo01"></div>
+              <div className="logo02"></div>
+              <div className="logo03"></div>
+              {/* <Image src={logo01} alt="logo01" />
               <Image src={logo02} alt="logo02" />
-              <Image src={logo03} alt="logo03" />
+              <Image src={logo03} alt="logo03" /> */}
             </div>
           </div>
         </div>

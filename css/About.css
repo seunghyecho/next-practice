@@ -1,7 +1,7 @@
 .About section .inner {
   margin: 0 auto;
   padding: 100px 0;
-  width: 1270px;
+  width: 1194px;
 }
 .About section .inner.d-flex {
   display: flex;
@@ -41,13 +41,34 @@
 .About section.logo {
   width: 100%;
 }
+.About section.logo .inner{
+  border-bottom: 1px solid #f1f1f5 ;
+}
 .About section.logo .content {
   width: 100%;
 }
 .About section.logo .imgArea {
   display: flex;
-  width: 30%;
-  align-items: flex-end;
+  justify-content: space-between;
+}
+.About section.logo .imgArea > div {
+  width: 100%;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.About section.logo .imgArea .logo01 {
+  height: 66px;
+  background-position: left;
+  background-image: url(/images/about/logo01.png);
+}
+.About section.logo .imgArea .logo02 {
+  height: 300px;
+  background-image: url(/images/about/logo02.png);
+}
+.About section.logo .imgArea .logo03 {
+  height: 157px;
+  background-image: url(/images/about/logo03.png);
 }
 .About section.logo .imgArea img {
   padding: 0 15px;
@@ -57,7 +78,7 @@
 .About section.vision {
   width: 100%;
   height: 100%;
-  background-image: url(../assets/images/about/vision01.jpg);
+  background-image: url(/images/about/vision01.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -83,18 +104,18 @@
   display: block;
   width: 25px;
   height: 25px;
-  background-image: url(../assets/icons/quote-left-solid_w.svg);
+  background-image: url(/icons/quote-left-solid_w.svg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 /* img */
-.About section.img .img_about01{
+.About section.img .img_about01 {
   display: block !important;
   height: 100%;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
-  background-image: url(../assets/images/about/img_about01.jpg);
+  background-image: url(/images/about/img_about01.jpg);
 }
 .About section.img .d-flex {
   display: flex;
@@ -111,14 +132,14 @@
 }
 .About section.img .d-flex .img_about02 {
   width: 50%;
-  background-image: url(../assets/images/about/img_about02.png);
+  background-image: url(/images/about/img_about02.png);
 }
 .About section.img .d-flex .img_about03 {
   width: 70%;
-  background-image: url(../assets/images/about/img_about03.jpg);
+  background-image: url(/images/about/img_about03.jpg);
 }
 
-@media screen and (max-width: 1270px) {
+@media screen and (max-width: 1194px) {
   .About section .inner {
     width: 100%;
   }
@@ -169,6 +190,7 @@
   .About section.logo .imgArea img:nth-child(1) {
     padding: 0;
   }
+
   .About section.vision {
     padding: 40px 0;
   }

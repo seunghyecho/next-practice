@@ -15,7 +15,7 @@ export default class Slide3_develop extends Component {
       customPaging: (i) => <div className="customPaging">{/* {i + 1} */}</div>,
       responsive: [
         {
-          breakpoint: 1270,
+          breakpoint: 1194,
           settings: {
             slidesToShow: 4,
             slidesToScroll: 4,

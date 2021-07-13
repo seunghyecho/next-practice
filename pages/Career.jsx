@@ -102,7 +102,7 @@ function Career() {
         <span className="title">채용중인 포지션</span>
       </section>
       <section className="section6">
-        <div className="inner">
+        <div className="inner" key="who-are-you">
           <Table_career />
           <Button className="mobile">더보기</Button>
         </div>

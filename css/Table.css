@@ -40,7 +40,7 @@
   color: #505050;
 }
 
-@media screen and (max-width: 1270px) {
+@media screen and (max-width: 1194px) {
   .ant-table table tbody {
     text-align-last: left;
   }

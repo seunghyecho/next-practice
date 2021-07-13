@@ -2,8 +2,6 @@ import styled from "styled-components";
 
 import Link from "next/link";
 
-import Colors from "../../../utils/Colors";
-
 // import posterLogo from "../../../assets/images/logo/t-logo-3x-b.png";
 // import poster from "../../../assets/images/poster.jpg";
 // import mainVideo from "../../../assets/video/main-video.mov";
@@ -14,7 +12,7 @@ const Button = styled.button`
   padding: 10px 20px;
   width: 50%;
   color: #fff;
-  // background-color: ${(props) => props.Colors.purple}; 
+  background-color: ${(props) => props.theme.purple}; 
   border-radius: 3px;
   border: none;
   cursor: pointer;

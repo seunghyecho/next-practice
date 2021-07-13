@@ -7,11 +7,9 @@ import Slider from "react-slick";
 
 import styled from "styled-components";
 
-import audienceM from "../../../assets/images/main/audienceM-3x.png";
-import contents from "../../../assets/images/main/contents-3x.png";
-import development from "../../../assets/images/main/development-3x.png";
-
-import Colors from "../../../utils/Colors";
+import audienceM from "/public/images/main/audienceM-3x.png";
+import contents from "/public/images/main/contents-3x.png";
+import development from "/public/images/main/development-3x.png";
 
 // button gray
 const Button = styled.button`
@@ -19,14 +17,14 @@ const Button = styled.button`
   padding: 10px 20px;
   width: 50%;
   color: #fff;
-  background-color: ${Colors.gray};
+  background-color:  ${(props) => props.theme.gray};
   border-radius: 3px;
   border: none;
   cursor: pointer;
 
   @media screen and (max-width: 912px) {
     width: auto;
-    background-color: ${Colors.skyblue};
+    background-color:  ${(props) => props.theme.skyblue};
   }
 `;
 
@@ -42,7 +40,7 @@ export default class Slide3 extends Component {
       customPaging: (i) => <div className="customPaging">{/* {i + 1} */}</div>,
       responsive: [
         {
-          breakpoint: 1270,
+          breakpoint: 1194,
           settings: {
             slidesToShow: 3,
             slidesToScroll: 3,

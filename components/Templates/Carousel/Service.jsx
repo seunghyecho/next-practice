@@ -1,13 +1,10 @@
 import styled from "styled-components";
+
 import { Carousel } from "antd";
 
 import useDisplay from "../../../hooks/useDisplay";
 
-import service01 from "../../../assets/images/service/service01@3x.jpg";
-import rightArrow from "../../../assets/icons/right-arrow@3x.png";
-import leftArrow from "../../../assets/icons/left-arrow@3x.png";
-
-import Colors from "../../../utils/Colors";
+import service01 from "/public/images/service/service01@3x.jpg";
 
 const Contain = styled.div`
   width: 100%;
@@ -58,7 +55,7 @@ const Button = styled.button`
   font-size: 18px;
   width: auto;
   color: #fff;
-  background-color: ${Colors.purple};
+  background-color:  ${(props) => props.theme.purple};
   border-radius: 3px;
   border: none;
   cursor: pointer;
@@ -70,7 +67,7 @@ const Button = styled.button`
 `;
 
 const RightArrowButton = styled.button`
-  background-image: url(${rightArrow});
+background-image: url(/icons/right-arrow@3x.png);
   background-repeat: no-repeat;
   background-size: 24px 24px;
   background-position: center;
@@ -95,7 +92,7 @@ const RightArrowButton = styled.button`
 `;
 
 const LeftArrowButton = styled.button`
-  background-image: url(${leftArrow});
+  background-image: url(/icons/left-arrow@3x.png);
   background-repeat: no-repeat;
   background-size: 24px 24px;
   background-position: center;
@@ -121,19 +118,19 @@ const LeftArrowButton = styled.button`
 
 const mottoData = [
   {
-    image: service01,
+    image: "/images/service/service01@3x.jpg",
     title01: "현재 사용자의 관심분야를",
     title02: "타겟팅 해서 그런지 ROAS 가 500% 이상 상승했어요!",
     content01: "패션 / A 브랜드사",
   },
   {
-    image: service01,
+    image: "/images/service/service01@3x.jpg",
     title01: "현재 사용자의 관심분야를",
     title02: "타겟팅 해서 그런지 ROAS 가 500% 이상 상승했어요!",
     content01: "패션 / A 브랜드사",
   },
   {
-    image: service01,
+    image: "/images/service/service01@3x.jpg",
     title01: "현재 사용자의 관심분야를",
     title02: "타겟팅 해서 그런지 ROAS 가 500% 이상 상승했어요!",
     content01: "패션 / A 브랜드사",

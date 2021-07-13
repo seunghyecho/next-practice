@@ -6,11 +6,6 @@ import ExtraDiv from "../components/Organization/Column/ExtraDiv";
 import MobileCard from "../components/Organization/Column/MobileCard";
 import Card from "../components/Organization/Column/Card";
 
-import column_01 from "../assets/images/main/column_01.png";
-import column_02 from "../assets/images/main/column_02.png";
-import column_03 from "../assets/images/main/column_03.png";
-import column_04 from "../assets/images/main/column_04.png";
-
 const Button = styled.button.attrs((props) => {})`
   margin: 0 auto;
   padding: 10px 20px;
@@ -43,7 +38,7 @@ Array.prototype.division = function () {
 function Column() {
   const columnData = [
     {
-      image: column_01,
+      image: "/images/main/column_01.png",
       infoDes: "Apache Airflow 활용법1",
       infoContent: "Apache Airflow 활용법1Apache Airflow  본문 내용",
       infoDate: "2021/06/06",
@@ -51,7 +46,7 @@ function Column() {
       type: "image",
     },
     {
-      image: column_02,
+      image: "/images/main/column_02.png",
       infoDes: `AudienceM 을 통한 페이스북 광고 성과 성과분석1`,
       infoContent: "Apache Airflow 활용법1Apache Airflow  본문 내용",
       infoDate: "2021/06/06",
@@ -59,7 +54,7 @@ function Column() {
       type: "video",
     },
     {
-      image: column_03,
+      image: "/images/main/column_03.png",
       infoDes: "eERP 구축 프로젝트1",
       infoContent:
         "Apache Airflow 활용법1Apache Airflow  본문 내용Apache Airflow 활용법1Apache Airflow  본문 내용Apache Airflow 활용법1Apache Airflow  본문 내용Apache Airflow 활용법1Apache Airflow  본문 내용Apache Airflow 활용법1Apache Airflow  본문 내용Apache Airflow 활용법1Apache Airflow  본문 내용Apache Airflow 활용법1Apache Airflow  본문 내용Apache Airflow 활용법1Apache Airflow  본문 내용Apache Airflow 활용법1Apache Airflow  본문 내용Apache Airflow 활용법1Apache Airflow  본문 내용Apache Airflow 활용법1Apache Airflow  본문 내용Apache Airflow 활용법1Apache Airflow  본문 내용Apache Airflow 활용법1Apache Airflow  본문 내용Apache Airflow 활용법1Apache Airflow  본문 내용Apache Airflow 활용법1Apache Airflow  본문 내용Apache Airflow 활용법1Apache Airflow  본문 내용",
@@ -68,7 +63,7 @@ function Column() {
       type: "text",
     },
     {
-      image: column_04,
+      image: "/images/main/column_04.png",
       infoDes: "Apache Airflow 활용법1",
       infoContent: "Apache Airflow 활용법1Apache Airflow  본문 내용",
       infoDate: "2021/06/06",
@@ -76,7 +71,7 @@ function Column() {
       type: "image",
     },
     {
-      image: column_01,
+      image: "/images/main/column_01.png",
       infoDes: "Apache Airflow 활용법2",
       infoContent: "Apache Airflow 활용법1Apache Airflow  본문 내용",
       infoDate: "2021/06/06",
@@ -84,7 +79,7 @@ function Column() {
       type: "image",
     },
     {
-      image: column_02,
+      image: "/images/main/column_02.png",
       infoDes: "AudienceM 을 통한 페이스북 광고 성과분석2",
       infoContent: "Apache Airflow 활용법1Apache Airflow  본문 내용",
       infoDate: "2021/06/06",
@@ -92,7 +87,7 @@ function Column() {
       type: "video",
     },
     {
-      image: column_03,
+      image: "/images/main/column_03.png",
       infoDes: "eERP 구축 프로젝트2",
       infoContent: "Apache Airflow 활용법1Apache Airflow  본문 내용",
       infoDate: "2021/06/06",

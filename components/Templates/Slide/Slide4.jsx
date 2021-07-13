@@ -3,10 +3,10 @@ import Image from 'next/image'
 
 import Slider from "react-slick";
 
-import column_01 from "../../../assets/images/main/column_01.png";
-import column_02 from "../../../assets/images/main/column_02.png";
-import column_03 from "../../../assets/images/main/column_03.png";
-import column_04 from "../../../assets/images/main/column_04.png";
+import column_01 from "/public/images/main/column_01.png";
+import column_02 from "/public/images/main/column_02.png";
+import column_03 from "/public/images/main/column_03.png";
+import column_04 from "/public/images/main/column_04.png";
 
 const columnData = [
     {

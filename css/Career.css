@@ -41,11 +41,11 @@
 
 .Career .pageTit {
   margin: 0 auto;
-  width: 1270px;
+  width: 1194px;
 }
 .Career section .inner {
   margin: 40px auto;
-  width: 1270px;
+  width: 1194px;
   text-align: left;
   color: #191919;
 }
@@ -70,7 +70,7 @@
   right: 28%;
   width: 276px;
   height: 192px;
-  background-image: url(../assets/images/career/img01.png);
+  background-image: url(/images/career/img01.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -104,7 +104,7 @@
   left: 0;
   width: 25px;
   height: 25px;
-  background-image: url(../assets/icons/check-b.png);
+  background-image: url(/icons/check-b.png);
   background-repeat: no-repeat;
   background-size: 14px 9px;
   background-position: center;
@@ -113,7 +113,7 @@
 .Career section.section3 {
   width: 100%;
   height: 444px;
-  background-image: url(../assets/images/career/career_bnr.jpg);
+  background-image: url(/images/career/career_bnr.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -152,7 +152,7 @@
 .Career section.section5 {
   width: 100%;
   height: 444px;
-  background-image: url(../assets/images/career/career_bnr02.jpg);
+  background-image: url(/images/career/career_bnr02.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -164,7 +164,7 @@
   background-color: transparent;
 }
 
-@media screen and (max-width: 1270px) {
+@media screen and (max-width: 1194px) {
   /* section6 */
   .Career section.section6 {
     margin-bottom: 100px;

@@ -2,25 +2,23 @@ import Image from 'next/image';
 
 import styled from "styled-components";
 
-import Colors from "../utils/Colors";
-
 import Banner_sub from "../components/Templates/Banner/Sub";
 
-import b2c_01 from "../assets/images/service/b2c_01.png";
-import b2c_02 from "../assets/images/service/b2c_02.png";
-import b2c_03 from "../assets/images/service/b2c_03.png";
-import b2c_ios from "../assets/images/service/b2c_ios.png";
-import b2c_aos from "../assets/images/service/b2c_aos.png";
+import b2c_01 from "/public/images/service/b2c_01.png";
+import b2c_02 from "/public/images/service/b2c_02.png";
+import b2c_03 from "/public/images/service/b2c_03.png";
+import b2c_ios from "/public/images/service/b2c_ios.png";
+import b2c_aos from "/public/images/service/b2c_aos.png";
 
-import b2b_01 from "../assets/images/service/b2b_01.png";
-import b2b_02 from "../assets/images/service/b2b_02.png";
-import b2b_03 from "../assets/images/service/b2b_03.png";
-import b2b_04 from "../assets/images/service/b2b_04.png";
-import b2b_05 from "../assets/images/service/b2b_05.png";
-import b2b_06 from "../assets/images/service/b2b_06.png";
-import b2b_07 from "../assets/images/service/b2b_07.png";
-import b2b_08 from "../assets/images/service/b2b_08.png";
-import b2b_09 from "../assets/images/service/b2b_09.png";
+import b2b_01 from "/public/images/service/b2b_01.png";
+import b2b_02 from "/public/images/service/b2b_02.png";
+import b2b_03 from "/public/images/service/b2b_03.png";
+import b2b_04 from "/public/images/service/b2b_04.png";
+import b2b_05 from "/public/images/service/b2b_05.png";
+import b2b_06 from "/public/images/service/b2b_06.png";
+import b2b_07 from "/public/images/service/b2b_07.png";
+import b2b_08 from "/public/images/service/b2b_08.png";
+import b2b_09 from "/public/images/service/b2b_09.png";
 
 // button purple
 const Button = styled.button`
@@ -29,7 +27,7 @@ const Button = styled.button`
   font-size: 18px;
   width: auto;
   color: #fff;
-  background-color: ${Colors.purple};
+  background-color:  ${(props) => props.theme.purple};;
   border-radius: 3px;
   border: none;
   cursor: pointer;

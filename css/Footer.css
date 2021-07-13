@@ -10,7 +10,7 @@
 
 #footer .inner {
   margin: 0 auto;
-  width: 1270px;
+  width: 1194px;
   display: flex;
 }
 
@@ -36,7 +36,7 @@
   height: 50px;
   background-repeat: no-repeat;
   background-size: contain;
-  background-image: url(../assets/images/logo/f-logo-3x.png);
+  background-image: url(/images/logo/f-logo-3x.png);
 }
 
 #footer .inner .bottom span {
@@ -119,34 +119,34 @@
   height: 30px;
   background-repeat: no-repeat;
   background-size: contain;
-  background-image: url(../assets/images/logo/f-logo-3x.png);
+  background-image: url(/images/logo/f-logo-3x.png);
 }
 
 #footer .inner .newsArea .icons li:nth-of-type(1) a {
   margin-left: 0;
-  background-image: url(../assets/icons/aos-app-3x.png);
+  background-image: url(/icons/aos-app-3x.png);
 }
 
 #footer .inner .newsArea .icons li:nth-of-type(2) a {
-  background-image: url(../assets/icons/ios-app-3x.png);
+  background-image: url(/icons/ios-app-3x.png);
 }
 
 #footer .inner .newsArea .icons li:nth-of-type(3) a {
-  background-image: url(../assets/icons/github-3x.png);
+  background-image: url(/icons/github-3x.png);
 }
 
 #footer .inner .newsArea .icons li:nth-of-type(4) a {
-  background-image: url(../assets/icons/segment-3x.png);
+  background-image: url(/icons/segment-3x.png);
 }
 
 #footer .copy {
-  width: 1270px;
+  width: 1194px;
   margin: 0 auto;
   color: #dbdbdb;
   font-size: 10px;
 }
 
-@media screen and (max-width: 1270px) {
+@media screen and (max-width: 1194px) {
   #footer .inner {
     padding: 0 15px;
     width: 100%;

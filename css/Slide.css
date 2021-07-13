@@ -2,7 +2,7 @@
 .slide3 {
   padding: 170px 0;
   margin: 0 auto;
-  width: 1270px;
+  width: 1194px;
   overflow: hidden;
 }
 .slide3 .slick-track {
@@ -57,19 +57,19 @@
   background-position: center;
 }
 .slide3.slide3_develop .img.img01 {
-  background-image: url(../assets/images/service/dev_img01.png);
+  background-image: url(/images/service/dev_img01.png);
   background-size: 70%;
 }
 .slide3.slide3_develop .img.img02 {
-  background-image: url(../assets/images/service/dev_img02.png);
+  background-image: url(/images/service/dev_img02.png);
   background-size: 70%;
 }
 .slide3.slide3_develop .img.img03 {
-  background-image: url(../assets/images/service/dev_img03.png);
+  background-image: url(/images/service/dev_img03.png);
   background-size: 70%;
 }
 .slide3.slide3_develop .img.img04 {
-  background-image: url(../assets/images/service/dev_img04.png);
+  background-image: url(/images/service/dev_img04.png);
   background-size: 70%;
 }
 .slide3.slide3_develop h2 {
@@ -107,7 +107,7 @@
 .slide4 {
   padding: 100px 0;
   margin: 0 auto;
-  width: 1270px;
+  width: 1194px;
   box-sizing: border-box;
 }
 
@@ -240,7 +240,7 @@
 
 .slide4 .slick-arrow.slick-prev {
   left: -3px;
-  background-image: url(../assets/icons/left-arrow@3x.png);
+  background-image: url(/icons/left-arrow@3x.png);
   background-repeat: no-repeat;
   background-size: 24px 24px;
   background-position: center;
@@ -248,7 +248,7 @@
 
 .slide4 .slick-arrow.slick-next {
   right: -3px;
-  background-image: url(../assets/icons/right-arrow@3x.png);
+  background-image: url(/icons/right-arrow@3x.png);
   background-repeat: no-repeat;
   background-size: 24px 24px;
   background-position: center;
@@ -284,7 +284,7 @@
   background: #8986ff;
 }
 
-@media screen and (max-width: 1270px) {
+@media screen and (max-width: 1194px) {
   .slide3 {
     padding: 40px 0;
     width: 100%;

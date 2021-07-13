@@ -5,7 +5,7 @@
 }
 .Tab .Tab-wrap {
   margin: 0 auto;
-  width: 1270px;
+  width: 1194px;
   display: flex;
   justify-content: space-between;
   position: relative;
@@ -47,7 +47,7 @@
 .Tab.career .content::before {
   content: "";
   margin: 0 auto;
-  width: 1270px;
+  width: 1194px;
   height: 1px;
   background-color: #ededed;
 }
@@ -60,7 +60,7 @@
   color: #999;
 }
 
-@media screen and (max-width: 1270px) {
+@media screen and (max-width: 1194px) {
 }
 
 @media screen and (max-width: 912px) {

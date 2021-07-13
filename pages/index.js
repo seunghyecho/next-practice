@@ -2,8 +2,6 @@ import Link from "next/link";
 
 import styled from "styled-components";
 
-import Colors from "../utils/Colors";
-
 import Banner_main from "../components/Templates/Banner/Main";
 import MottoCarousel from "../components/Templates/Carousel/Motto";
 import Slide3 from "../components/Templates/Slide/Slide3";

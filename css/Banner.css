@@ -68,7 +68,7 @@
 .About .banner.sub {
   width: 100%;
   height: 700px;
-  background-image: url(../assets/images/banner/subBanner01.jpg);
+  background-image: url(/public/images/banner/subBanner01.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -83,19 +83,19 @@
   overflow: hidden;
 }
 .Service.audienceM .banner.sub {
-  background-image: url(../assets/images/banner/subBanner02_1.jpg);
+  background-image: url(/public/images/banner/subBanner02_1.jpg);
 }
 .Service.contents .banner.sub {
-  background-image: url(../assets/images/banner/subBanner02_2.jpg);
+  background-image: url(/public/images/banner/subBanner02_2.jpg);
 }
 .Service.develop .banner.sub {
-  background-image: url(../assets/images/banner/subBanner02_3.jpg);
+  background-image: url(/public/images/banner/subBanner02_3.jpg);
 }
 .Career .banner.sub {
-  background-image: url(../assets/images/banner/subBanner04.jpg);
+  background-image: url(/public/images/banner/subBanner04.jpg);
 }
 .Contact .banner.sub {
-  background-image: url(../assets/images/banner/subBanner05.jpg);
+  background-image: url(/public/images/banner/subBanner05.jpg);
 }
 .banner.sub .inner h1 {
   font-size: 46px;
@@ -107,7 +107,7 @@
 /* 배너 - 서브:e */
 /* 배너 : e */
 
-@media screen and (max-width: 1270px) {
+@media screen and (max-width: 1194px) {
 }
 
 @media screen and (max-width: 912px) {

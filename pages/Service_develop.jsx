@@ -8,18 +8,18 @@ import Banner_sub from "../components/Templates/Banner/Sub";
 import Tab_develop from "../components/Templates/Tab/Tab_service_develop";
 import Slide3_develop from "../components/Templates/Slide/Slide3_develop";
 
-import dev_img05_m from "../assets/images/service/dev_img05_m.png";
-import dev_img06_m from "../assets/images/service/dev_img06_m.png";
-import dev_img07_m from "../assets/images/service/dev_img07_m.png";
-import dev_img05 from "../assets/images/service/dev_img05.png";
-import dev_img06 from "../assets/images/service/dev_img06.png";
-import dev_img07 from "../assets/images/service/dev_img07.png";
-import portfolio01 from "../assets/images/service/portfolio01.png";
-import portfolio02 from "../assets/images/service/portfolio02.png";
-import portfolio03 from "../assets/images/service/portfolio03.png";
-import portfolio04 from "../assets/images/service/portfolio04.png";
-import portfolio05 from "../assets/images/service/portfolio05.png";
-import portfolio06 from "../assets/images/service/portfolio06.png";
+import dev_img05_m from "/public/images/service/dev_img05_m.png";
+import dev_img06_m from "/public/images/service/dev_img06_m.png";
+import dev_img07_m from "/public/images/service/dev_img07_m.png";
+import dev_img05 from "/public/images/service/dev_img05.png";
+import dev_img06 from "/public/images/service/dev_img06.png";
+import dev_img07 from "/public/images/service/dev_img07.png";
+import portfolio01 from "/public/images/service/portfolio01.png";
+import portfolio02 from "/public/images/service/portfolio02.png";
+import portfolio03 from "/public/images/service/portfolio03.png";
+import portfolio04 from "/public/images/service/portfolio04.png";
+import portfolio05 from "/public/images/service/portfolio05.png";
+import portfolio06 from "/public/images/service/portfolio06.png";
 
 // button purple
 const Button = styled.button`
@@ -28,7 +28,7 @@ const Button = styled.button`
   font-size: 18px;
   width: auto;
   color: #fff;
-  background-color: ${Colors.purple};
+  background-color:  ${(props) => props.theme.purple};
   border-radius: 3px;
   border: none;
   cursor: pointer;
@@ -71,14 +71,15 @@ function Service3() {
           <div className="pageTit">
             <h1 className="ff-r">브랜드별 KPI 관리</h1>
             <p>
-              브랜드사를 위한 통합 마케팅 관리 솔루션
-              <br className="mobile" />
+              브랜드사를 위한 통합 마케팅 관리 솔루션 <br />
               채널별 목표매출 관리부터 ROAS 관리까지 한번에
             </p>
           </div>
-          <div className="graph">
-            <Image src={dev_img05} alt="dev_img05" className="pc" />
-            <Image src={dev_img05_m} alt="dev_img05" className="mobile" />
+          <div className="graph pc">
+            <Image src={dev_img05} alt="dev_img05" />
+          </div>
+          <div className="graph mobile">
+            <Image src={dev_img05_m} alt="dev_img05" />
           </div>
         </div>
       </section>
@@ -88,9 +89,11 @@ function Service3() {
             <h1 className="ff-r">판매채널별 실적관리</h1>
             <p>판매채널별 판매실적 별도 수집</p>
           </div>
-          <div className="graph">
-            <Image src={dev_img06} alt="dev_img06" className="pc" />
-            <Image src={dev_img06_m} alt="dev_img06" className="mobile" />
+          <div className="graph pc">
+            <Image src={dev_img06} alt="dev_img06"/>
+          </div>
+          <div className="graph mobile">
+            <Image src={dev_img06_m} alt="dev_img06" />
           </div>
         </div>
       </section>
@@ -100,9 +103,11 @@ function Service3() {
             <h1 className="ff-r">브랜드별 실적관리</h1>
             <p>다수 브랜드 운영 시, 각 브랜드별 데이터 관리 가능</p>
           </div>
-          <div className="graph">
-            <Image src={dev_img07} alt="dev_img07" className="pc" />
-            <Image src={dev_img07_m} alt="dev_img07" className="mobile" />
+          <div className="graph pc">
+            <Image src={dev_img07} alt="dev_img07"/>
+          </div>
+          <div className="graph mobile">
+            <Image src={dev_img07} alt="dev_img07"/>
           </div>
         </div>
       </section>

@@ -2,7 +2,7 @@ import { useState, useEffect, useCallback } from "react";
 import _ from "lodash";
 
 const TABLET_MIN_WIDTH = 912;
-const DESKTOP_MIN_WIDTH = 1270;
+const DESKTOP_MIN_WIDTH = 1194;
 
 const useDisplay = () => {
     

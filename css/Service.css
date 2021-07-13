@@ -2,13 +2,13 @@
 .section {
   padding: 140px 0;
   margin: 0 auto;
-  width: 1270px;
+  width: 1194px;
   border-bottom: 1px solid #f1f1f5;
 }
 .audienceM .goods {
   padding: 140px 0;
   margin: 0 auto;
-  width: 1270px;
+  width: 1194px;
   border-bottom: 1px solid #f1f1f5;
 }
 .bg {
@@ -17,11 +17,11 @@
 }
 .bg .inner {
   margin: 0 auto;
-  width: 1270px;
+  width: 1194px;
 }
 .pageTit {
   margin: 92px auto 55px;
-  width: 1270px;
+  width: 1194px;
 }
 .pageTit h1 {
   font-size: 40px;
@@ -140,10 +140,10 @@
   background-position: center;
 }
 .contents .section .appArea .item .osArea button.ios {
-  background-image: url(../assets/images/service/b2c_ios.png);
+  background-image: url(/images/service/b2c_ios.png);
 }
 .contents .section .appArea .item .osArea button.aos {
-  background-image: url(../assets/images/service/b2c_aos.png);
+  background-image: url(/images/service/b2c_aos.png);
 }
 .contents .section .appArea .item .osArea button:first-child {
   margin-left: 0;
@@ -178,34 +178,34 @@
 }
 .contents .section .b2bArea .inner .b2bIcon:nth-of-type(1) span {
   height: 35px;
-  background-image: url(../assets/images/service/b2b_01.png);
+  background-image: url(/images/service/b2b_01.png);
 }
 .contents .section .b2bArea .inner .b2bIcon:nth-of-type(2) span {
-  background-image: url(../assets/images/service/b2b_02.png);
+  background-image: url(/images/service/b2b_02.png);
 }
 .contents .section .b2bArea .inner .b2bIcon:nth-of-type(3) span {
-  background-image: url(../assets/images/service/b2b_03.png);
+  background-image: url(/images/service/b2b_03.png);
 }
 .contents .section .b2bArea .inner .b2bIcon:nth-of-type(4) span {
   height: 35px;
-  background-image: url(../assets/images/service/b2b_04.png);
+  background-image: url(/images/service/b2b_04.png);
 }
 .contents .section .b2bArea .inner .b2bIcon:nth-of-type(5) span {
-  background-image: url(../assets/images/service/b2b_05.png);
+  background-image: url(/images/service/b2b_05.png);
 }
 .contents .section .b2bArea .inner .b2bIcon:nth-of-type(6) span {
   height: 60%;
-  background-image: url(../assets/images/service/b2b_06.png);
+  background-image: url(/images/service/b2b_06.png);
 }
 .contents .section .b2bArea .inner .b2bIcon:nth-of-type(7) span {
-  background-image: url(../assets/images/service/b2b_07.png);
+  background-image: url(/images/service/b2b_07.png);
 }
 .contents .section .b2bArea .inner .b2bIcon:nth-of-type(8) span {
-  background-image: url(../assets/images/service/b2b_08.png);
+  background-image: url(/images/service/b2b_08.png);
 }
 .contents .section .b2bArea .inner .b2bIcon:nth-of-type(9) span {
   height: 35px;
-  background-image: url(../assets/images/service/b2b_09.png);
+  background-image: url(/images/service/b2b_09.png);
 }
 .Service .section.banner-btm {
   padding: 0;
@@ -220,10 +220,10 @@
   z-index: 0;
 }
 .contents .section.banner-btm {
-  background-image: url(../assets/images/service/banner_btm.jpg);
+  background-image: url(/images/service/banner_btm.jpg);
 }
 .develop .section.banner-btm {
-  background-image: url(../assets/images/service/banner_btm_develop.jpg);
+  background-image: url(/images/service/banner_btm_develop.jpg);
 }
 .Service .section.banner-btm::after {
   content: "";
@@ -274,7 +274,7 @@
 .Service.develop section {
   padding: 100px 0;
   margin: 0 auto;
-  width: 1270px;
+  width: 1194px;
 }
 .Service.develop section .inner.dp-f {
   display: flex;
@@ -310,30 +310,30 @@
 }
 .Service.develop section .inner .portfolioItems .item.item01 {
   height: 447px;
-  background-image: url(../assets/images/service/img_portfolio_01.png);
+  background-image: url(/images/service/img_portfolio_01.png);
 }
 .Service.develop section .inner .portfolioItems .item.item02 {
   height: 326px;
-  background-image: url(../assets/images/service/img_portfolio_02.png);
+  background-image: url(/images/service/img_portfolio_02.png);
 }
 .Service.develop section .inner .portfolioItems .item.item03 {
   height: 590px;
-  background-image: url(../assets/images/service/img_portfolio_03.png);
+  background-image: url(/images/service/img_portfolio_03.png);
 }
 .Service.develop section .inner .portfolioItems .item.item04 {
   margin-top: -129px;
   height: 469px;
-  background-image: url(../assets/images/service/img_portfolio_04.png);
+  background-image: url(/images/service/img_portfolio_04.png);
 }
 .Service.develop section .inner .portfolioItems .item.item05 {
   margin-top: -250px;
   height: 590px;
-  background-image: url(../assets/images/service/img_portfolio_05.png);
+  background-image: url(/images/service/img_portfolio_05.png);
 }
 .Service.develop section .inner .portfolioItems .item.item06 {
   margin-top: 14px;
   height: 326px;
-  background-image: url(../assets/images/service/img_portfolio_06.png);
+  background-image: url(/images/service/img_portfolio_06.png);
 }
 .Service.develop section .inner .portfolioItems .item:last-child {
   margin-right: 0;
@@ -362,40 +362,40 @@
   width: 100px;
   height: 55px;
   bottom: -60px;
-  background-image: url(../assets/images/service/portfolio01.png);
+  background-image: url(/images/service/portfolio01.png);
 }
 .Service.develop section .inner .portfolioItems .item02 .logo p::after {
   width: 165px;
   height: 15px;
   bottom: -20px;
-  background-image: url(../assets/images/service/portfolio02.png);
+  background-image: url(/images/service/portfolio02.png);
 }
 .Service.develop section .inner .portfolioItems .item03 .logo p::after {
   width: 166px;
   height: 55px;
   bottom: -45px;
-  background-image: url(../assets/images/service/portfolio03.png);
+  background-image: url(/images/service/portfolio03.png);
 }
 .Service.develop section .inner .portfolioItems .item04 .logo p::after {
   width: 87px;
   height: 68px;
   bottom: -66px;
-  background-image: url(../assets/images/service/portfolio04.png);
+  background-image: url(/images/service/portfolio04.png);
 }
 .Service.develop section .inner .portfolioItems .item05 .logo p::after {
   width: 185px;
   height: 30px;
   bottom: -40px;
-  background-image: url(../assets/images/service/portfolio05.png);
+  background-image: url(/images/service/portfolio05.png);
 }
 .Service.develop section .inner .portfolioItems .item06 .logo p::after {
   width: 116px;
   height: 40px;
   bottom: -40px;
-  background-image: url(../assets/images/service/portfolio06.png);
+  background-image: url(/images/service/portfolio06.png);
 }
 /* service 3 develop : e */
-@media screen and (max-width: 1270px) {
+@media screen and (max-width: 1194px) {
 }
 
 @media screen and (max-width: 912px) {

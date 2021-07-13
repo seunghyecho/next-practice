@@ -1,4 +1,4 @@
-import videoImg from "../../../assets/icons/video.png";
+import videoImg from "/public/icons/video.png";
 
 function MobileCard({ item }) {
     return (

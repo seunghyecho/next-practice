@@ -7,17 +7,6 @@ import { Carousel } from "antd";
 
 import useDisplay from "../../../hooks/useDisplay";
 
-import motto01 from "../../../assets/images/main/motto01@3x.jpg";
-import motto02 from "../../../assets/images/main/motto02@3x.jpg";
-import motto03 from "../../../assets/images/main/motto03@3x.jpg";
-import motto04 from "../../../assets/images/main/motto04@3x.jpg";
-import motto05 from "../../../assets/images/main/motto05@3x.jpg";
-
-import rightArrow from "../../../assets/icons/right-arrow@3x.png";
-import leftArrow from "../../../assets/icons/left-arrow@3x.png";
-
-import Colors from "../../../utils/Colors";
-
 const Contain = styled.div`
   width: 100%;
   height: 581px;
@@ -69,7 +58,7 @@ const Button = styled.button`
   font-size: 18px;
   width: auto;
   color: #fff;
-  background-color: ${Colors.purple};
+  background-color:  ${(props) => props.theme.purple};
   border-radius: 3px;
   border: none;
   cursor: pointer;
@@ -81,7 +70,7 @@ const Button = styled.button`
 `;
 
 const RightArrowButton = styled.button`
-  background-image: url(${rightArrow});
+  background-image: url(/icons/right-arrow@3x.png);
   background-repeat: no-repeat;
   background-size: 24px 24px;
   background-position: center;
@@ -106,7 +95,7 @@ const RightArrowButton = styled.button`
 `;
 
 const LeftArrowButton = styled.button`
-  background-image: url(${leftArrow});
+  background-image: url(/icons/left-arrow@3x.png);
   background-repeat: no-repeat;
   background-size: 24px 24px;
   background-position: center;
@@ -132,32 +121,32 @@ const LeftArrowButton = styled.button`
 
 const mottoData = [
   {
-    image: motto01,
+    image: "/images/main/motto01@3x.jpg",
     title: "우리는 행복을 위해 일합니다.",
     content01: "나의 행복은 선한 바이러스가 되어",
     content02: "내 동료를 행복하게 하는 것을 알기에 각자 노력합니다.",
   },
   {
-    image: motto02,
+    image: "/images/main/motto02@3x.jpg",
     title: "우리는 서로를 존중하고 이해할 수 있습니다.",
     content01: "말로부터 시작되는 존중은 우리의 품격을 높여주고",
     content02: "우리는 품격을 갖기 위해 노력합니다.",
   },
   {
-    image: motto03,
+    image: "/images/main/motto03@3x.jpg",
     title: "우리는 프로이자 전문가입니다.",
     content01: "나의 가치를 인정해주는 사람들과 함께 하기에",
     content02:
       "더 나은 실력을 만들기 위한 열정으로 배움을 게을리하지 않습니다.",
   },
   {
-    image: motto04,
+    image: "/images/main/motto04@3x.jpg",
     title: "우리는 끊임없이 도전합니다.",
     content01: "현재 성과에 안주하지 않고 더 나은 결과를 위해 새로움과",
     content02: " 낯섦, 그리고 불편한 것을 두려워하지 않습니다.",
   },
   {
-    image: motto05,
+    image: "/images/main/motto05@3x.jpg",
     title: "우리는 강한 책임감을 갖고 있습니다.",
     content01: "우리가 성장을 갈구하는 것과 같이",
     content02: "클라이언트의 성공을 위해 끊임없이 노력합니다.",
