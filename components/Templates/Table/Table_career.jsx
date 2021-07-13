@@ -64,8 +64,20 @@ const data = [
 ];
 
 function TableCareer() {
+
+  const onRow = (record, rowIndex) => {
+    return {
+      onClick: (event) => {
+          // record: row의 data
+          // rowIndex: row의 index
+          // event: event prototype
+        console.log(record, rowIndex, event);
+      },
+    };
+  };
+
   return (
-      <Table columns={columns} dataSource={data} />
+      <Table columns={columns} dataSource={data} onRow={onRow}/>
   );
 }
 
