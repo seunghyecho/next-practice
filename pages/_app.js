@@ -16,6 +16,7 @@ import "../css/Banner.css";
 import "../css/Slide.css";
 import "../css/Table.css";
 import "../css/Tab.css";
+import "../css/Detail.css"
 
 import "../styles/globals.css";
 

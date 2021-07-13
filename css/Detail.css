@@ -1,0 +1,36 @@
+.detail .header {
+  margin-top: -70px;
+  position: relative;
+  z-index: 3;
+  width: 100%;
+  height: 70px;
+  background-color: #111111;
+}
+
+.detail .body {
+  margin: 0 auto;
+  padding: 100px 0;
+  width: 1194px;
+}
+
+.detail .body .title {
+  margin-bottom: 62px;
+  text-align: left;
+  border-bottom: 2px solid #99999983;
+}
+.detail .body .title .tit {
+  font-size: 40px;
+  font-weight: bold;
+}
+.detail .body .title .date {
+  font-size: 14px;
+}
+
+@media screen and (max-width: 1194px) {
+  .detail .body {
+    width: 100%;
+    padding: 100px 15px;
+  }
+}
+@media screen and (max-width: 912px) {
+}

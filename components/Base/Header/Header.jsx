@@ -29,10 +29,10 @@ function Header() {
             ></button>
             {modalStatus && <Menu close={setModalStatus} />}
           </div>
-          <div className="logo">
+          <div className="logo pc">
             <a href="/"></a>
           </div>
-          <div className="gnb">
+          <div className="gnb pc">
             <ul className="gnbUl">
               <li>
                 <Link href="/About">ABOUT</Link>
