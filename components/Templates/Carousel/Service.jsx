@@ -1,10 +1,11 @@
+import Link from "next/link";
+import Image from "next/image";
+
 import styled from "styled-components";
 
 import { Carousel } from "antd";
 
 import useDisplay from "../../../hooks/useDisplay";
-
-import service01 from "/public/images/service/service01@3x.jpg";
 
 const Contain = styled.div`
   width: 100%;
@@ -41,11 +42,16 @@ const Content = styled.div.attrs((props) => {})`
 `;
 
 const Inner = styled.div`
+  width: 1194px;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: #fff;
+
+  @media screen and (max-width: 1194px) {
+    width: 100%;
+  }
 `;
 
 // button purple
@@ -55,7 +61,7 @@ const Button = styled.button`
   font-size: 18px;
   width: auto;
   color: #fff;
-  background-color:  ${(props) => props.theme.purple};
+  background-color: ${(props) => props.theme.purple};
   border-radius: 3px;
   border: none;
   cursor: pointer;
@@ -67,7 +73,7 @@ const Button = styled.button`
 `;
 
 const RightArrowButton = styled.button`
-background-image: url(/icons/right-arrow@3x.png);
+  background-image: url(/icons/right-arrow@3x.png);
   background-repeat: no-repeat;
   background-size: 24px 24px;
   background-position: center;
@@ -82,9 +88,7 @@ background-image: url(/icons/right-arrow@3x.png);
   box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
 
   position: absolute;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  right: 12%;
+  left: 0;
 
   @media screen and (max-width: 912px) {
     display: none;
@@ -107,9 +111,7 @@ const LeftArrowButton = styled.button`
   box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
 
   position: absolute;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  left: 12%;
+  left: 0;
 
   @media screen and (max-width: 912px) {
     display: none;
@@ -166,7 +168,7 @@ function ServiceCarousel() {
                   color: "#fff",
                   fontSize: isSmall ? 22 : 30,
                   fontWeight: 600,
-                  width: isMobile ? 320 : "100%",
+                  width: isMobile ? "100%" : "100%",
                 }}
               >
                 {data.title01}
@@ -177,22 +179,24 @@ function ServiceCarousel() {
                 style={{
                   marginTop: 10,
                   color: "#fff",
-                  fontSize: isSmall ? 15 : 16,
+                  fontSize: isSmall ? 14 : 16,
                   fontWeight: 400,
                 }}
               >
                 {data.content01} <br />
                 {data.content02}
               </div>
-              <Button type="button" className="btnPurple">
-                활용사례 더보기
-              </Button>
+              <Link href="/flesCompany/career">
+                <Button type="button" className="btnPurple">
+                  활용사례 더보기
+                </Button>
+              </Link>
+              <RightArrowButton onClick={next} />
+              <LeftArrowButton onClick={previous} />
             </Inner>
           </Content>
         ))}
       </Carousel>
-      <RightArrowButton onClick={next} />
-      <LeftArrowButton onClick={previous} />
     </Contain>
   );
 }

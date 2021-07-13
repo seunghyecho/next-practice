@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 import styled from "styled-components";
 
 const Modal = styled.div`
@@ -24,19 +26,19 @@ function Menu({ close }) {
         </div>
         <ul className="menuMobileGnb content">
           <li>
-            <a href="/flesCompany/about">ABOUT</a>
+            <Link href="/About">ABOUT</Link>
           </li>
           <li>
             <a href="#">SERVICE</a>
             <ul className="menuMobileGnbSub">
               <li>
-                <a href="/flesCompany/audienceM">AudienceM</a>
+                <Link href="/Service_audienceM">AudienceM</Link>
               </li>
               <li>
-                <a href="/flesCompany/contents">Contents</a>
+                <Link href="/Service_contents">Contents</Link>
               </li>
               <li>
-                <a href="/flesCompany/develop">Development</a>
+                <Link href="/Service_develop">Development</Link>
               </li>
             </ul>
           </li>
@@ -47,18 +49,18 @@ function Menu({ close }) {
                 <a href="/">AudienceM사례</a>
               </li>
               <li>
-                <a href="/flesCompany/column">Column</a>
+                <Link href="/Column">Column</Link>
               </li>
               <li>
-                <a href="/flesCompany/news">News</a>
+                <Link href="/News">News</Link>
               </li>
             </ul>
           </li>
           <li>
-            <a href="/flesCompany/career">CAREER</a>
+            <Link href="/Career">CAREER</Link>
           </li>
           <li>
-            <a href="/flesCompany/contact">CONTACT</a>
+            <Link href="/Contact">CONTACT</Link>
           </li>
         </ul>
       </div>

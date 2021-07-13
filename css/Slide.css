@@ -280,6 +280,8 @@
 }
 
 .mottoCarousel .ant-carousel .slick-dots li.slick-active {
+  width: 8px !important;
+  height: 8px !important;
   color: #8986ff;
   border: 1px solid #8986ff;
   background: #8986ff;

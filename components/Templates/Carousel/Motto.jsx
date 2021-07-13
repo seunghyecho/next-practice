@@ -49,6 +49,10 @@ const Inner = styled.div`
   left: 50%;
   transform: translate(-50%, -50%);
   color: #fff;
+
+  @media screen and (max-width: 1194px) {
+    width: 100%;
+  }
 `;
 
 // button purple
