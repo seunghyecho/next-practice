@@ -1,28 +1,9 @@
 import ReactDOM from "react-dom";
 
-import styled from "styled-components";
-
 import Banner_sub from "../components/Templates/Banner/Sub";
 import Tab_career from "../components/Templates/Tab/Tab_career";
 import Table_career from "../components/Templates/Table/Table_career";
-
-
-const Button = styled.button`
-  margin: 0 auto;
-  padding: 10px 40px;
-  font-size: 18px;
-  width: 100%;
-  color: ${(props) => props.theme.gray};
-  border: 1px solid ${(props) => props.theme.gray};
-  border-radius: 3px;
-  cursor: pointer;
-  margin-top: 30px;
-  background-color: #fff;
-
-  @media screen and (max-width: 912px) {
-    font-size: 16px;
-  }
-`;
+import Collapse_career from "../components/Templates/Collapse/Collapse_career";
 
 function Career() {
   return (
@@ -103,8 +84,8 @@ function Career() {
       </section>
       <section className="section6">
         <div className="inner" key="who-are-you">
+          {/* <Collapse_career /> table 대체 작업중*/}
           <Table_career />
-          <Button className="mobile">더보기</Button>
         </div>
       </section>
     </div>

@@ -36,30 +36,35 @@ const data = [
     field: "개발",
     position: "웹퍼블리셔(프론트엔드)",
     state: "정규직",
+    description:"Everything that has a beginning, has an end."
   },
   {
-    key: "1",
+    key: "2",
     field: "경영지원",
     position: "커뮤니케이션 담당자",
     state: "정규직",
+    description:"Everything that has a beginning, has an end."
   },
   {
-    key: "1",
+    key: "3",
     field: "디자인",
     position: "UI/UX 디자이너",
     state: "정규직",
+    description:"Everything that has a beginning, has an end."
   },
   {
-    key: "1",
+    key: "4",
     field: "마케팅",
     position: "콘텐츠 크리에이터",
     state: "정규직",
+    description:"Everything that has a beginning, has an end."
   },
   {
-    key: "1",
+    key: "5",
     field: "디자인",
     position: "브랜드 경험 디자이너",
     state: "정규직",
+    description:"Everything that has a beginning, has an end."
   },
 ];
 
@@ -72,6 +77,11 @@ function TableCareer() {
           // rowIndex: row의 index
           // event: event prototype
         console.log(record, rowIndex, event);
+        <tr>
+          <td>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, autem.
+          </td>
+        </tr>
       },
     };
   };
