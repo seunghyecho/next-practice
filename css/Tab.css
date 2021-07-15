@@ -24,8 +24,9 @@
   color: #dbdbdb;
   transition: all 0.5s;
 }
-.Tab .Tab-wrap .round:active,
-.Tab .Tab-wrap .round:focus {
+
+.Tab .Tab-wrap .round.active,
+.Tab .Tab-wrap .round.active{
   border: solid 3px #8986ff;
   color: #8986ff;
 }

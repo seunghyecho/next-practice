@@ -18,28 +18,30 @@ const content = [
   },
 ];
 
-const useTabs = (initialTabs, allTabs) => {
-  const [contentIndex, setContentIndex] = useState(initialTabs);
-  return {
-    contentItem: allTabs[contentIndex],
-    contentChange: setContentIndex,
-  };
-};
-
 function Tab() {
-  const { contentItem, contentChange } = useTabs(0, content);
+  const [selectedIdx, setSelectedIdx] = useState(0);
+  console.log(selectedIdx, setSelectedIdx);
+
   return (
     <div className="Tab career">
       <div className="Tab-wrap">
         {content.map((section, index) => (
-          <button className="round" onClick={() => contentChange(index)}>
+          <button
+            key={index}
+            className={"round rr-f " + (selectedIdx !== index ? "" : "active")}
+            onClick={() => {
+              setSelectedIdx(index);
+            }}
+          >
             {section.tab}
           </button>
         ))}
       </div>
       <div className="content">
-        <h2 className="ff-r">{contentItem.content01}</h2>
-        <h3>{contentItem.content02}</h3>
+        <h2 className="animated fadeInUp ff-r">
+          {content[selectedIdx].content01}
+        </h2>
+        <h3 className="animated fadeInUp">{content[selectedIdx].content02}</h3>
       </div>
     </div>
   );

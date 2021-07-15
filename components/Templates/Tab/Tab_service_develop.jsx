@@ -3,13 +3,15 @@ import { useState } from "react";
 const content = [
   {
     tab: "Idea",
-    content01: "많은 분들이 좋은 아이디어가 떠올랐지만, PLAN 단계까지 발전하지 못합니다.",
+    content01:
+      "많은 분들이 좋은 아이디어가 떠올랐지만, PLAN 단계까지 발전하지 못합니다.",
     content02:
       "아이디어를 구체화할 수 있는 전문 기획자와 개발자의 자문을 통해 실현가능성을 검증해보세요.",
   },
   {
     tab: "Plan",
-    content01: "RFP? WBS? STORYBORAD? 생소한 IT용어에 당황스러우시죠. 걱정하지마세요.",
+    content01:
+      "RFP? WBS? STORYBORAD? 생소한 IT용어에 당황스러우시죠. 걱정하지마세요.",
     content02:
       "계획을 현실화하는데 최고의 파트너가 여기 있습니다. 합리적인 비용과 기간산정, 리스크 분석까지 해결해드립니다.",
   },
@@ -27,34 +29,37 @@ const content = [
   },
   {
     tab: "Investment & IP",
-    content01: "훌륭한 PRODUCT도 시장을 선점하기 위해서는 자본과 권리보호가 필요합니다.",
+    content01:
+      "훌륭한 PRODUCT도 시장을 선점하기 위해서는 자본과 권리보호가 필요합니다.",
     content02:
       "FLES의 네트워킹을 통해 파트너사의 비즈니스 성장을 위한 전략을 컨설팅 해드립니다.",
   },
 ];
 
-const useTabs = (initialTabs, allTabs) => {
-  const [contentIndex, setContentIndex] = useState(initialTabs);
-  return {
-    contentItem: allTabs[contentIndex],
-    contentChange: setContentIndex,
-  };
-};
-
 function Tab() {
-  const { contentItem, contentChange } = useTabs(0, content);
+  const [selectedIdx, setSelectedIdx] = useState(0);
+  console.log(selectedIdx, setSelectedIdx);
+
   return (
     <div className="Tab philosophy">
       <div className="Tab-wrap">
         {content.map((section, index) => (
-          <button className="round ff-r" onClick={() => contentChange(index)}>
+          <button
+            key={index}
+            className={"round rr-f " + (selectedIdx !== index ? "" : "active")}
+            onClick={() => {
+              setSelectedIdx(index);
+            }}
+          >
             {section.tab}
           </button>
         ))}
       </div>
       <div className="content">
-        <h2 className="animated fadeInUp ff-r">{contentItem.content01}</h2>
-        <h3 className="animated fadeInUp">{contentItem.content02}</h3>
+        <h2 className="animated fadeInUp ff-r">
+          {content[selectedIdx].content01}
+        </h2>
+        <h3 className="animated fadeInUp">{content[selectedIdx].content02}</h3>
       </div>
     </div>
   );
